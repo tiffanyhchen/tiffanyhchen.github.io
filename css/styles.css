@@ -85,7 +85,7 @@ header, main, footer {
 }
 
 #intro{
-    padding-top: 25%;
+    padding-top: 24%;
 }
 
 #about{
@@ -218,6 +218,19 @@ h3{
     max-width: 100%;
 }
 
+.project-title{
+    margin-bottom: 5%;
+    border-bottom: 2px solid #D3D3D3;
+}
+
+h2{
+    color: #4ECEDF;
+}
+
+h5{
+    font-family: "Brandon Grotesque Medium", sans-serif;
+    font-size: 1em;
+}
 .img-gallery{
     display: block;
     max-width: 100%;
@@ -511,6 +524,16 @@ html,body {
 }
 
 @media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+    #content{
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width : 600px) {
     header, main, footer {
         padding-left: 0;
     }

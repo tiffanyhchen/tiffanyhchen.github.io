@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Tiffany Chen">
+    <link rel="shortcut icon" href="http://example.com/favicon.ico?v=2" />
+    <title>Tiffany Chen</title>
+    <!--Import icon files and font files-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cardo:700" rel="stylesheet">
+    <!--Import stylesheets-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/styles.css" media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+</head>
+
+<body> 
+    
+    <ul id="slide-out" class="side-nav fixed section table-of-contents">
+        <li><img src="imgs/logo.svg" id="navlogo"/></li>
+        <li><a href="index.html#introslide" id="navtitle">TIFFANY CHEN</a></li>
+        <li><a href="index.html#workslide">work</a></li>
+        <li><a href="index.html#resumeslide">resume</a></li>
+        <li><a href="index.html#aboutslide">about</a></li>
+    </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+    
+    <div class="pageWrapper" id="content">
+        <section class="full">
+            <div class="slide section scrollspy" id="#workslide">
+                <div class="content-section" id="work">
+                    <a href="index.html#workslide" id="back">
+                         <i class="tiny material-icons"> arrow_back</i> BACK
+                    </a>
+                    <div class="project-title">
+                        <h2>PRINTAPI</h2>
+                        <h5>nov 2016&ndash;present</h5>
+                    </div>
+                    <h3>overview&mdash;</h3>
+                    <p class= "project-summary">
+                        user interface/experience, mobile, front-end development
+                    </p>
+                    <h3>introduction&mdash;</h3>
+                    <p class="project-summary">
+                        I am a member of a club at Carnegie Mellon University called ScottyLabs that devotes itself to helping students learn and explore topics in technology. In the club, I often work on the branding and promotional materials.
+                        <br/><br/>
+                        At CMU, students must install specific print softwares in order to send documents to the print queues to be printed. To simplify this process and make printing more accessible, the club has been working on the PrintAPI, a web app where students can simply upload files straight to the print queue from any device. This is an on-going project. 
+                    </p>
+                    <h3>process&mdash;</h3>
+                    <p class="project-summary">
+                        I was asked to design and code the user interface of the web app. For the initial stages, the goal was to keep things simple. When I was sketching out my ideas, I considered the following:
+                        
+                        <ol>
+                            <li>The user interface should be straightforward, easy to navigate through, and concise. The purpose of the application is its convenience, so the design should properly reflect that. </li>
+                            <li>Both the code and the visual design should be flexible to change. I was told by individuals working on the back-end of the software not to worry about creating a mobile app interface. Given that users will probably access the application on their mobile devices, I decided to make sure that the design could easily work for smartphones. The tech team would only have to make a few scaling adjustments, and the design would still work well on mobile devices</li>
+                            <li>The project is still in development. As the project continues to progress and the web application gets more features, the user interface will need to tweaked, adjusted, and redesigned. For example, the web app will likely include a built-in print dialogue in the future. Currently, we are planning to build an iOS application as well. </li>
+                        </ol>
+                    </p>
+                    <h3>user stories&mdash;</h3>
+                    <p class="project-summary">
+                        To better understand how students at CMU would need this and use the application, I came up with personas.
+                        <br/><br/>
+                        Bill is junior studying at CMU. Since freshman year (like all the other students), he installed and used the print driver software that the school provided. However, recently, the software on Bill's computer no longer works and printing documents has become quite inconvenient. Instead of trying to reinstall the software or going to printing stations around campus, Bill can simply access the web app online and get his documents sent to the print queue. 
+                        <br/><br/>
+                        Likewise, Jane is a freshman student who often procrastinates and forgets to print her homework until the moment before its due. Rather than pulling out her laptop to send her homework to the printing system, she can simply use her phone to get the job done with less hassle. 
+                    </p>
+                    <h3>wireframes&mdash;</h3>
+                    <p class="project-summary">
+                        <img src="imgs/PrintAPI/sketch.jpg"/>
+                    </p>
+                    
+                </div>
+            </div>
+
+        </section>
+    </div>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+            $(".button-collapse").sideNav();
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.scrollspy').scrollSpy();
+        });
+    </script>
+</body>
+
+</html>
