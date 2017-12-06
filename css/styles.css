@@ -23,36 +23,11 @@ header, main, footer {
     padding-top: 10%;
 }
 
-.cover-up, #mobile{
-    display: none;
-}
-
-.cover-up{
-    display: none;
-    background-color: #FFFFFF;
-    z-index: 1; 
-    display: block; 
-    position: fixed;
-    overflow-x: hidden;
-    left: 0;
-    top: 0;
-    height: 100%;
-    font-size: 1.75em;
-    padding: 25% 5% 5% 5%;
-}
 .side-nav{
     width: 275px;
     padding-top: 10%;
     background-color: #4ECEDF;
 }
-
-.button-collapse{
-    color:#4ECEDF;
-    padding-top: 10px;
-    margin-left: 10px; 
-    position: fixed;
-}
-
 .side-nav li {
     text-align: left;
     font-size: 1em;
@@ -98,11 +73,12 @@ header, main, footer {
 }
 
 .content-section{
-    padding: 10%;
+    padding: 0 10% 10% 10%;
 }
 
 #intro{
-    padding-top: 24%;
+    padding-top: 25%;
+    margin-bottom: -10%;
 }
 
 #about{
@@ -131,7 +107,6 @@ h3{
     font-size: 1.5em;
     color: #4ECEDF;
     padding: 0;
-    margin-top: 5%;
 }
 
 .about-dtl{
@@ -156,40 +131,8 @@ h3{
     font-size: 1.1em;
 }
 
-.work-card{
-    position: relative;
-    display: block;
-    max-width: 100%;
-}
-
-.work-card img{
-    max-width: 100%;
-    
-}
-
-.work-overlay{
-    position: absolute;
-    top: 0;
-    height: 97.75%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: rgba(78, 206, 223, 1);
-    
-    text-align: center;
-    color: white;
-}
-
-.work-card:hover .work-overlay {
-  opacity: 1;
-}
-
-.work-text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+#work-slide{
+    margin: 0 auto; 
 }
 
 .dtl-title{
@@ -214,7 +157,7 @@ h3{
 #resumepdf img{
     max-width: 60%;
     display: block;
-    margin: -10% auto;
+    margin: 0 auto;
 }
 
 #back{
@@ -264,7 +207,6 @@ h5{
 .project-summary img{
     box-shadow: 3px 3px 3px #D3D3D3;
 }
-
 /*code pen animation */
 html,body {
   padding:0;
@@ -552,13 +494,6 @@ html,body {
     }
     #content{
         margin-left: 0;
-    }
-
-}
-
-@media only screen and (max-width : 600px) {
-    .cover-up, #mobile{
-        display: inline;
     }
 
 }
