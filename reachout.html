@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Tiffany Chen">
+    <link rel="shortcut icon" href="http://example.com/favicon.ico?v=2" />
+    <title>Tiffany Chen</title>
+    <!--Import icon files and font files-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cardo:700" rel="stylesheet">
+    <!--Import stylesheets-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/styles.css" media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+</head>
+
+<body> 
+    
+    <ul id="slide-out" class="side-nav fixed section table-of-contents">
+        <li><img src="imgs/logo.svg" id="navlogo"/></li>
+        <li><a href="index.html#introslide" id="navtitle">TIFFANY CHEN</a></li>
+        <li><a href="index.html#workslide">work</a></li>
+        <li><a href="index.html#resumeslide">resume</a></li>
+        <li><a href="index.html#aboutslide">about</a></li>
+        <li><a href="http://cargocollective.com/tiffanyhchen">play</a></li>
+    </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+    
+    <div class="pageWrapper" id="content">
+        <section class="full">
+            <div class="slide section scrollspy" id="#workslide">
+                <div class="content-section" id="work">
+                    <a href="index.html#workslide" id="back">
+                         <i class="tiny material-icons"> arrow_back</i> BACK
+                    </a>
+                    <div class="project-title">
+                        <h2>REACHOUT</h2>
+                        <h5>sept&ndash;present (THIS PROJECT IS STILL IN PROGRESS.)</h5>
+                    </div>
+                    <h3>overview&mdash;</h3>
+                    <p class= "project-summary">
+                        mobile, web application, ui/ux
+                    </p>
+                    <h3>problem space&mdash;</h3>
+                    <p class= "project-summary">
+                        Reachout is a mobile-first web application designed for homeless outreach. Within a city or a given area, each homeless shelter has its own way to keeping track of the people the staff meet. However, because there is no centralized system, homeless coordination between organizations is often inefficient. Reachout is an aggregated database designed to  help shelters coordinate resources and better help the homeless community.
+                    <h3>original designs&mdash;</h3>
+                    <p class="project-summary">           I joined this project in the middle of its development process. In our initial team meetings, everyone in the group felt that the application needed a redesign. The designs were not intuitive and were very difficult to use. For example, styles were not consistent in some places, and the information hierarchy was not clear in indicating what was important.
+                        <br/><br/>
+                        <div class="img-gallery">
+                            <img src="imgs/Reachout/org1.png"/>
+                            <img src="imgs/Reachout/org2.png"/>
+                        </div>
+                    </p>
+                    <h3>stakeholders&mdash;</h3>
+                    <p class="project-summary">
+                        <ol>
+                            <li>Homeless population: The people who are being reached out to. </li>
+                            <li>Shelter Workers: They are the ones who are actively using the system to reachout to people.</li>
+                        </ol>
+                    </p>
+                    <h3>paper prototypes&mdash;</h3>
+                    <p class="project-summary">
+                        To begin the redesign, everyone on the team gathered to discuss the things that we liked and disliked about the current design. We had a few discussions about the designs and also discussed the redesign from a technical standpoint in terms of how the new design would be added to the code. 
+                        <br/><br/>
+                        <img src="imgs/Reachout/sketch.png"/>
+                    </p>
+                    <p class="project-summary">
+                        <u>Changes Made</u>
+                        <ol>
+                            <li>Re-organization of home page: A user is now able to gather more information more quickly, rather than scrolling through pages of text</li>
+                            <li>Adding profile images: If a participant is willing, they can allow shelter workers take a picture of them. This will simplify and speed up the search process.</li>
+                            <li>Re-organization of profiles: The placement of content and buttons was not user friendly.</li>
+                            <li>Slideout menu: This was done to reduce clutter on the page.</li>
+                        </ol>
+                </p>
+                <p class="project-summary">
+                        After I finished sketching out my ideas, we gathered again to discuss the changes that I had made. We talked about generalizing the application because we thought that the concept of the application could be generalized for other scenarios (disaster rescue) and other cities across the country. We also discussed how we could reorganize the tags such that we could get more out of them. The team leads also took these designs to the homeless organizations we are partnered with for more feedback. 
+                    </p>
+                    <h3>mid-fidelity prototypes&mdash;</h3>
+                    <p class="project-summary">
+                        Using the feedback from our discussions, I moved on the mid-fidelity prototypes and made some changes, fleshing out our ideas even more. 
+                        <br/><br/>
+                        <img src="imgs/Reachout/mid.png"/>
+                    </p>
+                    <h3>next steps&mdash;</h3>
+                    <p class="project-summary">
+                        We hope to take these designs to the different homeless organizations we are partnered with and have them give us more feedback with the more fleshed out designs. These user testing sessions would provide valuable insight about the needs of the staff. In addition, I will be working on fleshing out the prototypes more and adding branding.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+            $(".button-collapse").sideNav();
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.scrollspy').scrollSpy();
+        });
+    </script>
+</body>
+
+</html>
