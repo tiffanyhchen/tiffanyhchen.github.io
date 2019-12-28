@@ -109,7 +109,7 @@ nav li a{
     margin: 8px 0;
 }
 
-#right-nav li a:hover{
+#right-nav li a:hover, #right-nav li .active{
     color: var(--light-blue);
 }
 
@@ -162,9 +162,13 @@ nav li a{
 
 /*Portfolio*/
 .portfolio{
-    width: 950px;
-    margin: 5em auto;
+    margin: 3rem auto;
     top: 0px;
+}
+
+#mosaic{
+    margin: 0 auto;
+    max-width: 950px;
 }
 
 #portfolio-preface{
@@ -255,7 +259,9 @@ nav li a{
 }
 
 .project-box img{
+    height: 100%;
     width: 100%;
+    object-fit: cover; 
 }
 
 .project-box:hover .project-box-hover {
@@ -320,7 +326,7 @@ nav li a{
 }
 
 .five {
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 /* Portfolio Pages */
@@ -468,10 +474,67 @@ footer #copyright{
     }
 }
 
+@media screen and (max-width: 960px) {
+    #content-wrapper{
+       max-width: 960px;
+    }
+    
+    #mosaic{
+        max-width: 625px;
+    }
+  
+    .one, .four, .five, .six{
+        height: 225px;
+    }
+
+    .two, .three{
+        height: 300px;
+    }
+
+    .one, .three, .five{
+        margin-right: 10px;
+        margin-left: 0;
+    }
+
+    .two, .four, .six{
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    
+    .four, .six{
+        margin-top: 20px;
+    }
+    
+    .three{
+        margin-top: -55px;
+    }
+}
+
+
 /* Medium */
 @media screen and (max-width: 768px) {
     #content-wrapper{
        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    #content-wrapper{
+       max-width: 630px;
+    }
+    
+    #mosaic{
+        max-width: 300px;
+    }
+  
+    .one, .two, .three, .four, .five, .six{
+        height: 225px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .two, .three, .four, .five, .six{
+        margin-top: 20px;
     }
 }
 
