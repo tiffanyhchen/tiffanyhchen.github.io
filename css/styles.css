@@ -28,15 +28,17 @@ html, body{
     min-height: 100%;
     margin: 0;
     padding: 0;
+    font-family: "GT America Light";
 }
 
 #preloader{
-    visibility: hidden;
+    visibility: none;
 }
 
 /* Main Page Load with Easing */
-#main-page{
-    margin: 1em 5em;
+#content-wrapper{
+    margin: 0 auto;
+    max-width: 1024px;
     -webkit-animation: fadein 2s ease; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s ease; /* Firefox < 16 */
     -ms-animation: fadein 2s ease; /* Internet Explorer */
@@ -91,7 +93,7 @@ nav li{
 nav li a{
     color: #000000;
     font-family: 'GT America Mono Regular';
-    font-size: 16px;
+    font-size: 14px;
 }
 
 #right-nav{
@@ -100,11 +102,10 @@ nav li a{
 
 #right-nav li{
     margin: 22px auto 22px 44px;
-    
 }
 
 #nav-logo{
-    max-width: 30px;
+    max-width: 24px;
     margin: 8px 0;
 }
 
@@ -119,16 +120,12 @@ nav li a{
 }
 
 .center {
-    padding: 0;
+/*    padding: 1rem;*/
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-#home-page{
-    width: 800px;
 }
 
 .statement-txt{
@@ -145,6 +142,12 @@ nav li a{
     font-size: 24px;
     letter-spacing: .15px;
     line-height: 32px;
+}
+
+.pardon-the-dust{
+    font-size: 14px;
+    margin-top: 2.5rem;
+    color: var(--gray);
 }
 
 .page-title{
@@ -165,7 +168,7 @@ nav li a{
 }
 
 #portfolio-preface{
-    padding: 3em;
+    padding: 3rem;
 }
 
 .custom-select {
@@ -454,4 +457,27 @@ footer #copyright{
 #social-media-links li img{
     width: 36px;
     height: 36px;
+}
+
+/***** Screen Resizing *****/ 
+
+/* Tablet */
+@media screen and (max-width: 992px) {
+    #content-wrapper{
+       max-width: 992px;
+    }
+}
+
+/* Medium */
+@media screen and (max-width: 768px) {
+    #content-wrapper{
+       max-width: 768px;
+    }
+}
+
+/* Phones */
+@media screen and (max-width: 576px) {
+    #content-wrapper{
+        max-width: 576px;
+    }
 }
