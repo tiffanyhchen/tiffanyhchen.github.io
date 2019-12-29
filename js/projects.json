@@ -1,0 +1,90 @@
+[
+    {
+        "url": "vr_for_robot_teleop",
+        "name": "VR for Robot Teleoperation",
+        "tags": "VR, Unity (C#), User Research, UI/UX",
+        "site_tags": "Featured, Other",
+        "description": " Lorem Ipsum Text for now",
+        "image": "1.jpg"
+    },
+    {
+        "url": "chirp",
+        "name": "chirp",
+        "tags": "Mobile, UI/UX, Healthcare",
+        "site_tags": "Featured, Mobile",
+        "description": " Lorem Ipsum Text for now",
+        "image": "1.jpg"
+    },
+    {
+        "url": "ychat",
+        "name": "YMCA YCHAT",
+        "tags": "UI/UX, Consulting, Mobile Web App, Ruby on Rails",
+        "site_tags": "Mobile",
+        "description": " Lorem Ipsum Text for now",
+        "image": "1.jpg"
+    },
+    {
+        "url": "wabbit",
+        "name": "Wabbit",
+        "tags": "AR, UI/UX, Gamification",
+        "site_tags": "Featured, Mobile",
+        "description": " Lorem Ipsum Text for now",
+        "image": "1.jpg"
+    },
+    {
+        "url": "lifelike",
+        "name": "Lifelike",
+        "tags": "AR, UI/UX, Swift, Python, MongoDB",
+        "site_tags": "Mobile",
+        "description": " Lorem Ipsum Text for now",
+        "image": "1.jpg"
+    },
+    {
+        "url": "expii",
+        "name": "Expii",
+        "tags": "UI/UX, Personalized Learning",
+        "site_tags": "Featured, Mobile, Desktop, Other",
+        "description": " Lorem Ipsum Text for now",
+        "image": "1.jpg"
+    },
+    {
+        "url": "limacharlie",
+        "name": "LimaCharlie",
+        "tags": "UI/UX, Cybersecurity Dashboard",
+        "site_tags": "Desktop",
+        "description": " Lorem Ipsum Text for now",
+        "image": "1.jpg"
+    },
+    {
+        "url": "chirp",
+        "name": "User Research",
+        "tags": "User Centered Research and Analysis",
+        "site_tags": "Featured, Other",
+        "description": " Lorem Ipsum Text for now",
+        "image": "1.jpg"
+    },
+    {
+        "url": "soporific",
+        "name": "soporific",
+        "tags": "Interactive Website, UI/UX",
+        "site_tags": "Desktop",
+        "description": " Lorem Ipsum Text for now",
+        "image": "1.jpg"
+    },
+    {
+        "url": "koality_time",
+        "name": "Koality Time",
+        "tags": "Mobile, UI/UX, Persuasive Design, Gamification",
+        "site_tags": "Featured, Mobile",
+        "description": " Lorem Ipsum Text for now",
+        "image": "1.jpg"
+    },
+    {
+        "url": "knightshares",
+        "name": "Knightshares Landing Page Redesign",
+        "tags": "UI/UX, Consulting",
+        "site_tags": "Desktop",
+        "description": " Lorem Ipsum Text for now",
+        "image": "1.jpg"
+    }   
+]

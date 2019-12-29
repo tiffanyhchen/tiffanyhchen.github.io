@@ -305,27 +305,27 @@ nav li a{
     line-height: 20px;
 }
 
-.one, .five, .three{
+.box-1, .box-5, .box-3{
     height: 225px;
 }
 
-.two, .four, .six{
+.box-2, .box-4, .box-6{
     height: 300px;
 }
 
-.one, .two, .four, .five{
+.box-1, .box-2, .box-4, .box-5{
     margin-right: 10px;
 }
 
-.three, .two, .five, .six{
+.box-3, .box-2, .box-5, .box-6{
     margin-left: 10px;
 }
 
-.four, .six{
+.box-4, .box-6{
     margin-top: -55px;
 }
 
-.five {
+.box-5 {
     margin-top: 20px;
 }
 
@@ -483,29 +483,29 @@ footer #copyright{
         max-width: 625px;
     }
   
-    .one, .four, .five, .six{
+    .box-1, .box-4, .box-5, .box-6{
         height: 225px;
     }
 
-    .two, .three{
+    .box-2, .box-3{
         height: 300px;
     }
 
-    .one, .three, .five{
+    .box-1, .box-3, .box-5{
         margin-right: 10px;
         margin-left: 0;
     }
 
-    .two, .four, .six{
+    .box-2, .box-4, .box-6{
         margin-right: 0;
         margin-left: 10px;
     }
     
-    .four, .six{
+    .box-4, .box-6{
         margin-top: 20px;
     }
     
-    .three{
+    .box-3{
         margin-top: -55px;
     }
 }
@@ -527,13 +527,13 @@ footer #copyright{
         max-width: 300px;
     }
   
-    .one, .two, .three, .four, .five, .six{
+    .box-1, .box-2, .box-3, .box-4, .box-5, .box-6{
         height: 225px;
         margin-left: 0;
         margin-right: 0;
     }
     
-    .two, .three, .four, .five, .six{
+    .box-2, .box-3, .box-4, .box-5, .box-6{
         margin-top: 20px;
     }
 }
