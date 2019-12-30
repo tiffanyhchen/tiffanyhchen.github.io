@@ -60,7 +60,7 @@
         "name": "Lifelike",
         "tags": "AR, UI/UX, Swift, Python, MongoDB",
         "site_tags": "Mobile",
-        "description": " Lorem Ipsum Text for now",
+        "description": "A platform that equips any textbook with AR learning toolsß",
         "image": "lifelike.png"
     },
     {
@@ -87,5 +87,13 @@
         "site_tags": "Desktop",
         "description": "Design consulting for cryptocurrency startup",
         "image": "knightshares.png"
-    }   
+    },
+    {
+        "url": "knightshares",
+        "name": "Tea Appreciation Poster Series",
+        "tags": "Communications Design",
+        "site_tags": "Play",
+        "description": "Three part series for tea appreciation workshops",
+        "image": "infinitea.png"
+    } 
 ]

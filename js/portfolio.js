@@ -3,7 +3,6 @@ let mosaicData;
 var x, i, j, selElmnt, a, b, c;
 x = document.getElementsByClassName("custom-select");
 
-
 $(document).ready(function() {
     loadMosaicData();
 });
@@ -75,8 +74,6 @@ for (i = 0; i < x.length; i++) {
         this.nextSibling.classList.toggle("select-hide");
         this.classList.toggle("select-arrow-active");
         var selected = document.getElementsByClassName("select-selected")[0].innerHTML;
-        console.log(selected);
-        console.log(mosaicData);
         selected = selected.charAt(0).toUpperCase() + selected.slice(1);
         populateMosaic(selected);
     });
@@ -111,7 +108,6 @@ function populateMosaic(selected){
     var filteredProjects = mosaicData.filter(function(project) {
         return project.site_tags.includes(selected)
     });
-    console.log(filteredProjects);
     
     var mosaicHTML = "";
     var boxCounter = 1;
