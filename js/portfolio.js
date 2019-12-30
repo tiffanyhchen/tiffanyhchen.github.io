@@ -120,10 +120,11 @@ function populateMosaic(selected){
         console.log(project);
         var box = "<div class=\"project-box box-" + boxCounter +"\">";
         box += "<a href=\"" + project.url + ".html\">";
-        box += "<img src=\"img/" + project.image + "\"/>";
+        box += "<img src=\"img/mosaic/" + project.image + "\"/>";
         box += "<div class=\"project-box-hover\"><p class=\"project-box-title\">" + project.name;
-        box += "</p><p class=\"project-box-date\">" + project.tags;
-        box += "</p><p class=\"project-box-descrp\">" + project.description + "</p></div></a></div>";
+        box += "</p>"
+//        <p class=\"project-box-tags\">" + project.tags;
+        box += "<p class=\"project-box-descrp\">" + project.description + "</p></div></a></div>";
         mosaicHTML += box;
         boxCounter++;
     }

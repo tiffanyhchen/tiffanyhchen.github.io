@@ -1,35 +1,59 @@
 [
     {
-        "url": "vr_for_robot_teleop",
-        "name": "VR for Robot Teleoperation",
-        "tags": "VR, Unity (C#), User Research, UI/UX",
-        "site_tags": "Featured, Other",
-        "description": " Lorem Ipsum Text for now",
-        "image": "1.jpg"
+        "url": "chirp",
+        "name": "Chirp",
+        "tags": "UI/UX, Healthcare",
+        "site_tags": "Featured, Mobile",
+        "description": "Sparking social interaction for residents in nursing homes",
+        "image": "chirp.png"
     },
     {
-        "url": "chirp",
-        "name": "chirp",
-        "tags": "Mobile, UI/UX, Healthcare",
-        "site_tags": "Featured, Mobile",
-        "description": " Lorem Ipsum Text for now",
-        "image": "1.jpg"
+        "url": "vr_for_robot_teleop",
+        "name": "VR for Robot Teleoperation",
+        "tags": "VR, Unity, User Research, UI/UX",
+        "site_tags": "Featured, Other",
+        "description": "Using VR for more intuitive way to interface with robots",
+        "image": "vr_teleop.png"
     },
     {
         "url": "ychat",
-        "name": "YMCA YCHAT",
-        "tags": "UI/UX, Consulting, Mobile Web App, Ruby on Rails",
+        "name": "YCHAT",
+        "tags": "UI/UX, Consulting, Ruby on Rails",
         "site_tags": "Mobile",
-        "description": " Lorem Ipsum Text for now",
-        "image": "1.jpg"
+        "description": "Increasing parent engagement in YMCA summer camps",
+        "image": "ychat.png"
+    },
+    {
+        "url": "koality_time",
+        "name": "Koality Time",
+        "tags": "UI/UX, Persuasive Design, Gamification",
+        "site_tags": "Featured, Mobile",
+        "description": "Mobile app for reducing phone usage during social interactions",
+        "image": "koality_time.png"
+    },
+    {
+        "url": "expii",
+        "name": "Expii",
+        "tags": "UI/UX, Personalized Learning",
+        "site_tags": "Featured, Mobile, Desktop, Other",
+        "description": "Encouraging learning and retention on Expii, an online learning platform",
+        "image": "expii.png"
     },
     {
         "url": "wabbit",
         "name": "Wabbit",
         "tags": "AR, UI/UX, Gamification",
         "site_tags": "Featured, Mobile",
-        "description": " Lorem Ipsum Text for now",
-        "image": "1.jpg"
+        "description": "Gamified physical therapy to motivate stroke patients",
+        "image": "wabbit.gif"
+    },
+        {
+        "url": "user_research",
+        "name": "User Research",
+        "tags": "User Centered Research and Analysis",
+        "site_tags": "Featured, Other",
+        "description": "What are the opportunities to improve grad student commutes?",
+        "image": "user_research.png"
     },
     {
         "url": "lifelike",
@@ -37,54 +61,31 @@
         "tags": "AR, UI/UX, Swift, Python, MongoDB",
         "site_tags": "Mobile",
         "description": " Lorem Ipsum Text for now",
-        "image": "1.jpg"
-    },
-    {
-        "url": "expii",
-        "name": "Expii",
-        "tags": "UI/UX, Personalized Learning",
-        "site_tags": "Featured, Mobile, Desktop, Other",
-        "description": " Lorem Ipsum Text for now",
-        "image": "1.jpg"
+        "image": "lifelike.png"
     },
     {
         "url": "limacharlie",
         "name": "LimaCharlie",
-        "tags": "UI/UX, Cybersecurity Dashboard",
+        "tags": "UI/UX, Cybersecurity",
         "site_tags": "Desktop",
-        "description": " Lorem Ipsum Text for now",
-        "image": "1.jpg"
+        "description": "Endpoint security dashboard redesign",
+        "image": "limacharlie.png"
     },
-    {
-        "url": "chirp",
-        "name": "User Research",
-        "tags": "User Centered Research and Analysis",
-        "site_tags": "Featured, Other",
-        "description": " Lorem Ipsum Text for now",
-        "image": "1.jpg"
-    },
+
     {
         "url": "soporific",
-        "name": "soporific",
+        "name": "Soporific",
         "tags": "Interactive Website, UI/UX",
         "site_tags": "Desktop",
-        "description": " Lorem Ipsum Text for now",
-        "image": "1.jpg"
-    },
-    {
-        "url": "koality_time",
-        "name": "Koality Time",
-        "tags": "Mobile, UI/UX, Persuasive Design, Gamification",
-        "site_tags": "Featured, Mobile",
-        "description": " Lorem Ipsum Text for now",
-        "image": "1.jpg"
+        "description": "Interactive website documenting the importance of sleep",
+        "image": "soporific.png"
     },
     {
         "url": "knightshares",
-        "name": "Knightshares Landing Page Redesign",
+        "name": "Knightshares Landing Page",
         "tags": "UI/UX, Consulting",
         "site_tags": "Desktop",
-        "description": " Lorem Ipsum Text for now",
-        "image": "1.jpg"
+        "description": "Design consulting for cryptocurrency startup",
+        "image": "knightshares.png"
     }   
 ]
