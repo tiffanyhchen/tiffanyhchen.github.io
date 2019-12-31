@@ -115,7 +115,7 @@ function populateMosaic(selected){
     for(const project of filteredProjects){
         console.log(project);
         var box = "<div class=\"project-box box-" + boxCounter +"\">";
-        box += "<a href=\"" + project.url + ".html\">";
+        box += "<a href=\"portfolio_pages/" + project.url + ".html\">";
         box += "<img src=\"img/mosaic/" + project.image + "\"/>";
         box += "<div class=\"project-box-hover\"><p class=\"project-box-title\">" + project.name;
         box += "</p>"

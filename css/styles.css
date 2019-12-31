@@ -180,7 +180,7 @@ nav li a{
     position: relative;
     width: 160px;
     margin: 12px auto;
-    font-family: "GT America Mono";
+    font-family: "GT America Mono Regular";
     text-align: left;
     display: inline-block;
     font-size: 14px;
@@ -285,12 +285,12 @@ nav li a{
     right: 0;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.85);
     padding: 30px;
 }
 
 .project-box-title{
-    font-family: "GT America Mono";
+    font-family: "GT America Mono Regular";
     font-size: 20px;
     line-height: 24px;
     margin-bottom: 0px;
@@ -332,31 +332,46 @@ nav li a{
 }
 
 /* Portfolio Pages */
-.page-margin{
-    margin: 5em 2.5em;
+.page-grid-6{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.left-col-2-6{
+    grid-column: span 1;
+}
+
+.right-col-4-6{
+    grid-column: span 5;
 }
 
 .project-header{
-    background-image: url("../img/1.png");
-    width: auto;
-    height: 60vh;
-    padding: 5vh 5vw;
+    position: relative;
+    width: 100%;
+    grid-column: span 6;
+}
+
+.project-header img{
+    width: 100%;
+    object-fit: cover; 
 }
 
 #project-title{
-    bottom: 20vh;
+    bottom: 2vh;
+    margin: 2rem;
     position: absolute;
 }
 
 #project-title h3{
-    font-size: 42px;
-    font-family: 'GT America Medium';
-    letter-spacing: .2px;
+    font-size: 30px;
+    font-family: 'GT America Mono Regular';
     line-height: 36px;
 }
 
 #project-title h6{
-    font-family: 'GT America Mono Regular';
     color: var(--gray);
     font-size: 14px;
     margin-top: -14px;
@@ -369,16 +384,6 @@ nav li a{
 .written-content{
     margin-left: 6em;
     margin-right: 6em;
-}
-
-.one-third{
-    width:  15vw;
-    float: left;
-}
-
-.two-third{
-    width: 50vw;
-    float: right;
 }
 
 .section{
@@ -412,7 +417,8 @@ nav li a{
     line-height: 28px;
 }
 
-#about{
+/* About Page */
+#about, .project-page{
     margin: calc(3rem + 48px) auto;
     top: 0px;
 }
@@ -421,7 +427,7 @@ nav li a{
     width: 100%;
 }
 
-.page-grid{
+.page-grid-3{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
@@ -431,13 +437,6 @@ nav li a{
 
 .right-col-2{
     grid-column: span 2;
-}
-
-.sidebar-text{
-    font-family: "GT America Mono Regular";
-    font-size: 18px;
-    line-height: 32px;
-    color: var(--light-blue);
 }
 
 .main-paragraph a{
@@ -452,9 +451,9 @@ footer {
     color: var(--gray);
     display: inline-block;
     width: 90%;
-    margin: 5em 2.5em 2.5em 2.5em;
+    margin: 5rem 2.5rem 2.5rem 2.5rem;
     border-top: var(--light-blue) 1.2px solid;
-    padding: 1.5em;
+    padding: 1.5rem;
 }
 .footer-section{
     text-align: center;
@@ -466,8 +465,8 @@ footer ul{
 }
 
 footer #copyright{
-    font-size: 12px;
-    line-height: 24px;
+    font-size: 10px;
+    line-height: 20px;
 }
 
 #social-media-links li{
@@ -476,8 +475,8 @@ footer #copyright{
 }
 
 #social-media-links li img{
-    width: 36px;
-    height: 36px;
+    width: 24px;
+    height: 24px;
 }
 
 /***** Screen Resizing *****/ 
@@ -487,7 +486,7 @@ footer #copyright{
     #content-wrapper{
        max-width: 992px;
     }
-    .page-grid{
+    .page-grid-3, .page-grid-6{
         max-width: calc(100vw - 60px);
     }
 }
