@@ -11,7 +11,7 @@
     <body>
         <div id="pre-loader"></div>   
         <div id="content-wrapper">
-            <nav>
+            <nav id="main-nav">
                 <ul>
                     <li><a href="../index.html"><img src="../img/logo.png" id="nav-logo"/></a></li>
                     <div id="right-nav">
@@ -22,44 +22,38 @@
             </nav>
             <div id="page-content">
                 <div class="project-page">
-
-                    <div class="page-grid-6">
-                        <div class="project-header">
+                    <div class="page-grid">
+                        <div id="project-header">
                             <img src="../img/cover-pic-placeholder.png"/>
                             <div id="project-title">
                                 <h3>Project Name</h3>
                                 <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elitt</h6>
                             </div>
                         </div>
-                        <div class="left-col-2-6" id="project-nav">
-                            <div class="section-nav">Year</div>
-                            <div class="section-nav">Phase 1</div>
-                            <div class="section-nav">Phase 2</div>
-                        </div>
-                        <div class="right-col-4-6">
-                            <p class="main-subtitle">
-                                currently
-                            </p>
+                        <div class="main-content">
+                            <h2 class="main-subtitle" id="section-1">
+                                project overview
+                            </h2>
                             <p class="main-paragraph">
-                                UI/UX Engineer at Apple, based in the SF Bay Area.
-                            </p>
-                            <p class="main-paragraph">
-                                I recently graduated from Carnegie Mellon University, where I studied Information Systems and Human-Computer Interaction. I weave together design and technology to create empathetic experiences. I have incredible optimism for technology’s ability to enrich lives and transform the human experience, and I'm always exploring the possibilities. 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                             </p>
                             <br/>
-                            <p class="main-subtitle">
-                                contact me
-                            </p>
+                            <h2 class="main-subtitle" id="section-2">
+                                solution
+                            </h2>
                             <p class="main-paragraph">
-                                <a href="mailto:contact@tiffany-chen.com">Say hello</a>, I'd love to make something together. 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                
+                                
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                             </p>
                             <br/>
-                            <p class="main-subtitle">
-                                resume
-                            </p>
-                            <p class="main-paragraph">
-                                <a href="">Download Resume</a> 
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -78,5 +72,14 @@
                 </div>
             </footer>
         </div>
+        <script src="../js/scrollnav.min.umd.js"></script>
+        <script src="../js/project.js"></script>
+        <script>
+            const content = document.querySelector('.main-content');
+
+            scrollnav.init(content, { 
+              debug: true
+            });
+        </script>
     </body>
 </html>

@@ -84,13 +84,13 @@ a{
     text-decoration: none;
 }
 
-nav li{
+#main-nav li{
     list-style-type: none;
     float: left;
     display: inline-block;
 }
 
-nav li a{
+#main-nav li a{
     color: #000000;
     font-family: 'GT America Mono Regular';
     font-size: 14px;
@@ -332,29 +332,25 @@ nav li a{
 }
 
 /* Portfolio Pages */
-.page-grid-6{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 20px;
+.page-grid{
     max-width: 950px;
     margin: 0 auto;
 }
 
-.left-col-2-6{
-    grid-column: span 1;
+.main-content{
+    width: 80%;
+    right: 0;
+    float: right;
+    margin-top: 2rem;
 }
 
-.right-col-4-6{
-    grid-column: span 5;
-}
-
-.project-header{
+#project-header{
     position: relative;
     width: 100%;
-    grid-column: span 6;
+    z-index: 99;
 }
 
-.project-header img{
+#project-header img{
     width: 100%;
     object-fit: cover; 
 }
@@ -375,6 +371,26 @@ nav li a{
     color: var(--gray);
     font-size: 14px;
     margin-top: -14px;
+}
+
+.scroll-nav{
+    margin: 0;
+    position: fixed;
+    top: 2rem;
+    visibility: hidden;
+}
+
+.scroll-nav__list, .scroll-nav__item{
+    list-style: none;
+    color: #000;
+    padding: 0;
+    font-family: 'GT America Mono Regular';
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.scroll-nav__item--active .scroll-nav__link{
+    color: var(--light-blue);
 }
 
 #project-content{
@@ -410,6 +426,8 @@ nav li a{
 .main-subtitle{
     font-size: 18px;
     font-family: 'GT America Mono Regular';
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 .main-paragraph{

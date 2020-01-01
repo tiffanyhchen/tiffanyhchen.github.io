@@ -43,7 +43,7 @@
         "url": "wabbit",
         "name": "Wabbit",
         "tags": "AR, UI/UX, Gamification",
-        "site_tags": "Featured, Mobile",
+        "site_tags": "Mobile",
         "description": "Gamified physical therapy to motivate stroke patients",
         "image": "wabbit.gif"
     },
@@ -67,7 +67,7 @@
         "url": "limacharlie",
         "name": "LimaCharlie",
         "tags": "UI/UX, Cybersecurity",
-        "site_tags": "Desktop",
+        "site_tags": "Featured, Desktop",
         "description": "Endpoint security dashboard redesign",
         "image": "limacharlie.png"
     },
