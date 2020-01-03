@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="14px" height="24px" viewBox="0 0 14 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
-    <title>noun_back_453814</title>
+    <title>Tile Size Copy 2</title>
     <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="noun_back_453814" fill="#888888" fill-rule="nonzero">
-            <path d="M13.287,1.167 C13.287,1.406 13.195,1.646 13.013,1.828 L2.834,12.001 L13.012,22.175 C13.378,22.54 13.378,23.132 13.012,23.498 C12.647,23.863 12.055,23.863 11.69,23.498 L0.849,12.663 C0.498,12.312 0.498,11.691 0.849,11.34 L11.69,0.505 C12.055,0.139 12.647,0.139 13.012,0.505 C13.195,0.688 13.287,0.927 13.287,1.167 Z" id="Path"></path>
+    <g id="Tile-Size-Copy-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="back" transform="translate(86.000000, 30.000000)" fill="#888888" fill-rule="nonzero">
+            <path d="M129,9.50771518 C129,11.9341369 128.065604,14.370711 126.217124,16.2184463 L22.8343076,119.498731 L126.206968,222.789168 C129.92424,226.494791 129.92424,232.505007 126.206968,236.220783 C122.499852,239.926406 116.487216,239.926406 112.7801,236.220783 L2.67369353,126.219615 C-0.891231178,122.656125 -0.891231178,116.351489 2.67369353,112.788 L112.7801,2.78683163 C116.487216,-0.928943875 122.499852,-0.928943875 126.206968,2.78683163 C128.065604,4.64471938 129,7.07114108 129,9.50771518 Z" id="Path"></path>
         </g>
     </g>
 </svg>

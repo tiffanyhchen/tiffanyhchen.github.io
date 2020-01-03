@@ -391,15 +391,17 @@ a{
 .scroll-nav{
     margin: 0;
     position: fixed;
-    top: 11rem;
+    top: 12rem;
     right: calc( (100% - 950px) / 2 + 950px + 30px);
-    visibility: hidden;
-    transition: all 0.6s ease;
+    display: none;
+	height: 0;
+	overflow: hidden;
+	transition: height 0.7s ease-in-out;
 }
 
-.scroll-nav-visible{
-    visibility: visible;
-    transition: all 0.6s ease;
+.scroll-nav.is-visible{
+    display: block;
+	height: auto;
 }
 
 .scroll-nav__list, .scroll-nav__item{
@@ -492,14 +494,8 @@ footer {
     position: relative;
     font-family: "GT America Mono Regular";
     color: var(--gray);
-
     display: inline-block;
     width: 100%;
-/*
-    width: 90%;
-    margin: 5rem 2.5rem 2.5rem 2.5rem;
-    max-width: 950px;
-*/
     margin: 0 auto;
     border-top: var(--light-blue) 1.2px solid;
     padding-top: 1rem;
@@ -537,20 +533,9 @@ footer #copyright{
     #content-wrapper{
         max-width: calc(100vw - 60px);
     }
-/*
-    .page-grid-3, .page-grid-6{
-        max-width: calc(100vw - 60px);
-    }
-*/
 }
 
 @media screen and (max-width: 960px) {
-/*
-    #content-wrapper{
-       max-width: 960px;
-    }
-*/
-    
     #mosaic{
         max-width: 625px;
     }
@@ -585,12 +570,6 @@ footer #copyright{
 
 /* Medium */
 @media screen and (max-width: 768px) {
-/*
-    #content-wrapper{
-       max-width: 768px;
-    }
-*/
-    
     .center{
         width: 70vw;
     }
@@ -605,12 +584,6 @@ footer #copyright{
 }
 
 @media screen and (max-width: 630px) {
-/*
-    #content-wrapper{
-       max-width: 630px;
-    }
-*/
-    
     #mosaic{
         max-width: 300px;
     }
@@ -632,9 +605,4 @@ footer #copyright{
 
 /* Phones */
 @media screen and (max-width: 576px) {
-/*
-    #content-wrapper{
-        max-width: 576px;
-    }
-*/
 }
