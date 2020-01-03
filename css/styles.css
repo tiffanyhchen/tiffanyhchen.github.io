@@ -546,7 +546,7 @@ footer #copyright{
     }
 
     .scroll-nav{
-        bottom: -1px;
+        bottom: -8px;
         top: auto;
         right: auto;
         left: 160px;
