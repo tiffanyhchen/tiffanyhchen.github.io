@@ -528,10 +528,54 @@ footer #copyright{
 
 /***** Screen Resizing *****/ 
 
+@media screen and (max-width: 1150px) {
+    #page-nav{
+        bottom: 0;
+        top: auto;
+        right: auto;
+        left: auto;
+        background: #fff;
+        z-index: 99;
+        width: 100%;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    
+    #page-nav a{
+        z-index: 101;
+    }
+
+    .scroll-nav{
+        bottom: -1px;
+        top: auto;
+        right: auto;
+        left: 160px;
+        display: inline-block;
+        z-index: 100;
+    }
+    
+    ol.scroll-nav__list{
+        padding-left: 0;
+    }
+    
+    .scroll-nav__item{
+        display: inline-block;
+        padding-right: 20px;
+    }
+    
+    footer{
+        padding-bottom: 3rem;
+    }
+}
+
 /* Tablet */
 @media screen and (max-width: 992px) {
     #content-wrapper{
         max-width: calc(100vw - 60px);
+    }
+    
+    .scroll-nav{
+        left: calc(50px + 45px);
     }
 }
 
@@ -605,4 +649,23 @@ footer #copyright{
 
 /* Phones */
 @media screen and (max-width: 576px) {
+    .scroll-nav.is-visible{
+        left: auto;
+        padding-left: 100px;
+        display: block;
+        z-index: 98;
+        background: #fff;
+        width: 100%;
+        padding-top: 20px;
+        margin-bottom: 36px;
+    }
+    
+    ol.scroll-nav__list{
+        padding-left: 0;
+    }
+    
+    .scroll-nav__item{
+        display: block;
+        padding-bottom: 20px;
+    }
 }
