@@ -104,7 +104,6 @@ then close all select boxes. */
 document.addEventListener("click", closeAllSelect);
 
 function populateMosaic(selected){
-    console.log(selected);
     var filteredProjects = mosaicData.filter(function(project) {
         return project.site_tags.includes(selected)
     });
@@ -113,7 +112,6 @@ function populateMosaic(selected){
     var boxCounter = 1;
     
     for(const project of filteredProjects){
-        console.log(project);
         var box = "<div class=\"project-box box-" + boxCounter +"\">";
         box += "<a href=\"portfolio_pages/" + project.url + ".html\">";
         box += "<img src=\"img/mosaic/" + project.image + "\"/>";
