@@ -21,7 +21,6 @@ function checkBoxShadows(){
             scrollNav.style.boxShadow = "none";
         }
     }
-    console.log("resize")
 }
 
 function togglePageMenu(){

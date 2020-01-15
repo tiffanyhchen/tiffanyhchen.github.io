@@ -394,6 +394,21 @@ img:not([src]) {
     margin-top: 24px;
 }
 
+.white-text{
+    color: #fff !important;
+}
+
+.bottom-right{
+    right: 2.5rem;
+    left: auto;
+    margin-bottom: 0rem !important;
+    bottom: 0vh !important;
+}
+
+.indent{
+    left: 2.5rem;
+}
+
 #page-nav{
     margin: 0;
     position: fixed;
@@ -562,7 +577,9 @@ footer #copyright{
 
 #social-media-links li{
     display: inline-flex;
-    padding-right: 6px;
+    padding-right: 0px;
+    margin: 0;
+    margin-right: 6px;
 }
 
 #social-media-links li img{
@@ -678,6 +695,7 @@ footer #copyright{
     #project-title{
         bottom: 0;
         margin-bottom: 0;
+        width: 400px;
     }
 
     #project-title h3{
@@ -689,14 +707,9 @@ footer #copyright{
     #project-title h6{
         font-size: 14px;
         margin-top: 16px;
-        width: 300px;
     }
     
 }
-
-@media screen and (max-width: 960px) {
-}
-
 
 /* Medium */
 @media screen and (max-width: 768px) {
@@ -726,7 +739,6 @@ footer #copyright{
         font-size: 14px;
         margin-top: 20px;
     }
-
 }
 
 @media screen and (max-width: 680px) {
@@ -753,5 +765,7 @@ footer #copyright{
 
 /* Phones */
 @media screen and (max-width: 576px) {
-
+    #project-title{
+        width: 275px;
+    }
 }
