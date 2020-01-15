@@ -402,11 +402,18 @@ img:not([src]) {
     right: 2.5rem;
     left: auto;
     margin-bottom: 0rem !important;
-    bottom: 0vh !important;
+    bottom: 0vh;
 }
 
 .indent{
     left: 2.5rem;
+}
+
+.upper-left{
+    bottom: auto;
+    margin-bottom: auto;
+    margin-left: 2.5rem;
+    top: 2.5rem;
 }
 
 #page-nav{
