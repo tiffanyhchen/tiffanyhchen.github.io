@@ -1,6 +1,9 @@
 <html lang="en">
     <head>
-        <title>Tiffany Chen | VR for Robot Teleoperation</title>
+        <meta charset="utf-8">
+        <title>Tiffany Chen | Work</title>
+        <meta name="description" content="Tiffany Chen Portfolio">
+        <meta name="author" content="Tiffany Chen">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="../css/styles.css">
         <script
@@ -12,13 +15,11 @@
         <div id="pre-loader"></div>   
         <div id="content-wrapper">
             <nav id="main-nav">
-                <ul>
-                    <li><a href="../index.html"><img src="../img/logo.png" id="nav-logo"/></a></li>
-                    <div id="right-nav">
-                        <li><a rel="prerender" href="../work.html" class="active">work&mdash;</a></li>
-                        <li><a href="../about.html">about&mdash;</a></li>
-                    </div>
-                </ul>
+                <div><a href="../index.html"><img src="../img/logo.svg" id="nav-logo"/></a></div>
+                <div id="right-nav">
+                    <a href="../work.html">work&mdash;</a>
+                    <a rel="prerender" href="../about.html">about&mdash;</a>
+                </div>
             </nav>
             <div id="page-content">
                 <div class="project-page">
@@ -33,24 +34,15 @@
                         </div>
                         <div id="project-header">
                             <img src="../img/projects/vr_for_robot_teleop/cover_photo.gif"/>
-                            <div id="project-title" class="white-text upper-left">
+                            <div id="project-title">
                                 <h3>VR for Robot Teleoperation</h3>
-                                <div class="small">VR, Unity, User Research, 3D, UI/UX</div>
-                                <h6 class="white-text">Using VR for more intuitive way to interface with robots</h6>
+                                <h6>Using VR for more intuitive way to interface with robots</h6>
                             </div>
                         </div>
                         <div class="main-content">
                              <div class="small-grid">
                                 <div>
-                                    <div class="section-title">Tools</div>
-                                    <div class="section-content">
-                                        Unity (C#)<br/>
-                                        Maya/Blender<br/>
-                                        Figma
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="section-title">Team</div>
+                                    <div class="section-title">team</div>
                                     <div class="section-content">
                                         Marisa Lu<br/>
                                         Lucas Ochoa<br/>
@@ -60,20 +52,19 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="section-title">Timeframe</div>
+                                    <div class="section-title">timeframe</div>
                                     <div class="section-content">
                                         Jan – May 2019
                                     </div>
                                 </div>
                                  <div>
-                                    <div class="section-title">Role</div>
+                                    <div class="section-title">role</div>
                                     <div class="section-content">
                                         Technical Lead <br/>
                                         Design
                                     </div>
                                 </div>
                             </div>
-                            <br/>
                             <h2 class="main-subtitle" id="section-1">
                                 project overview
                             </h2>
@@ -184,10 +175,6 @@
                                     <div><img  class="same-height" src="../img/projects/vr_for_robot_teleop/maquette6.png"/></div>
                                     <div><img class="same-height" src="../img/projects/vr_for_robot_teleop/maquette2.png"/></div>
                                     <div><img  class="same-height" src="../img/projects/vr_for_robot_teleop/maquette1.gif"/></div>
-                                    <div><img  class="same-height" src="../img/projects/vr_for_robot_teleop/maquette3.png"/></div>
-                                    <div><img  class="same-height" src="../img/projects/vr_for_robot_teleop/maquette5.png"/></div>
-                                    <div><img  class="same-height" src="../img/projects/vr_for_robot_teleop/maquette7.png"/></div>
-                                    <div><img  class="same-height" src="../img/projects/vr_for_robot_teleop/maquette8.png"/></div>
                                 </div>
                             </div>
                             <h2 class="main-subtitle" id="section-8">
@@ -197,25 +184,211 @@
                                 <p class="main-paragraph">
                                     Taking our storyboards and prototypes, we conducted speed dating session with 6 users. Through these sessions, we sought to inform ourselves on key factors. After gathering the feedback, the team discussed and defined key terms and approaches.
                                 </p>
+                                <div class="sub-subtitle">1st vs. 3rd person</div>
+                                <div class="img-grid-2 align-items-center">
+                                    <div> 
+                                        <img src="../img/projects/vr_for_robot_teleop/first_person.gif">
+                                    </div>
+                                    <div>
+                                        <p class="main-paragraph">
+                                            <span class="font-bold">First Person</span>
+                                            <br/>
+                                            First person perspective is more intuitive, since it more closely mimics real life. However, first person lends itself to unpredictable inverse kineatics and physics when the end effector is tied directly to user motion.  
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="img-grid-2 align-items-center">
+                                    <div>
+                                        <p class="main-paragraph">
+                                            <span class="font-bold">Third Person</span>
+                                            <br/>
+                                            Third person more closely mimics current kinesthetic learning and is what many researchers already employ with robot training. 
+                                        </p>
+                                    </div>
+                                    <div> 
+                                        <img src="../img/projects/vr_for_robot_teleop/third_person.gif">
+                                    </div>
+                                </div>
+                                <div class="sub-subtitle">path planning vs. live control</div>
+                                <p class="main-paragraph">
+                                    <span class="font-bold">Path Planning</span>
+                                    <br/>
+                                    Path planning allows the user to set positions for the robot to travel to. This method of robot control accounts for the lag between the user’s action completed in the VR environment and real-time robot movement.
+                                </p>
+                                <p class="main-paragraph">
+                                    <span class="font-bold">Live Control</span>
+                                    <br/>
+                                    With live control, the robots does exactly as the user does in real time. Live control is more intuitive for the user to complete tasks.
+                                </p>
+                                <p class="main-paragraph">
+                                    <span class="font-bold">Moving Forward</span>
+                                    <br/>
+                                    Based on discussions, we decided to move foward with a combination of first and third person to use the advantages of both perspectives. Along with this, we decided to use path planning to help account for system lag. 
+                                </p>
+                                
+                            </div>
+                            
+                            <h2 class="main-subtitle" id="section-9">
+                                mid-fidelity interactions
+                            </h2>
+                            <div class="section-wrapper">
+                                <p class="main-paragraph">
+                                    At this stage of the project, we focused on identifying ways that users can better control the robot to complete tasks.
+                                </p>
+                                <div class="sub-subtitle">augmenting precision</div>
+                                    <p class="main-paragraph">
+                                        In these explorations, we looked at the "Key-Ignition" model as a physical signifier of how to engage with the robot's end effector. We also did further explorations on proximity based activations. 
+                                    </p>
+                                </div>
+                                <div class="img-grid-2">
+                                    <div><img  class="same-height" src="../img/projects/vr_for_robot_teleop/maquette1.gif"/></div>
+                                    <div><img  class="same-height" src="../img/projects/vr_for_robot_teleop/maquette3.png"/></div>
+                                    <div><img  class="same-height" src="../img/projects/vr_for_robot_teleop/maquette7.png"/></div>
+                                    <div><img  class="same-height" src="../img/projects/vr_for_robot_teleop/maquette8.png"/></div>
+                                </div>
+                            
+                        
+                            <h2 class="main-subtitle" id="section-10">
+                                control hierarchy
+                            </h2>
+                            <div class="section-wrapper">
+                                <div class="sub-subtitle">assumptions</div>
+                                <p class="main-paragraph">
+                                    We made a few assumptions in the process of designing the controls.
+                                </p>
+                                <ul>
+                                    <li>Robot manipulation is one handed and primarily in first person, so dominant hand primarily focuses on this task.</li>
+                                    <li>Separating controls based on dominant and non-dominant controllers helps users distinguish between physically controlling the robot and changing the mode that the user is operating in.</li>
+                                    <li>Separation of controls allows for fluidity of movement.</li>
+                                </ul>
+                                <img src="../img/projects/vr_for_robot_teleop/controls.png"/>
+                                <div class="sub-subtitle">trajectory-based control vs. position-based control</div>
+                                <p class="main-paragraph">
+                                    In early explorations, we focused on position-based control, where the robot moves it previous position to the next planned position. This method of manipulation does not allow for smooth, continuous actions and looses the fluidity of the motion. Thus, we pivoted to designing controls with trajectory-based control of the end effector.
+                                </p>
+                                <img src="../img/projects/vr_for_robot_teleop/trajectory_control.png"/>
+                            </div>
+                            <h2 class="main-subtitle" id="section-11">
+                                final design 
+                            </h2>
+                            <div class="section-wrapper">
+                                <div class="sub-subtitle">fluid 1st and 3rd</div>
+                                <p class="main-paragraph">
+                                    <span class="font-bold">First Person</span>
+                                    <br/>
+                                    The user can stand in the position of the robot and manipulate it.
+                                </p>
+                                <p class="main-paragraph">
+                                    <span class="font-bold">Third Person</span>
+                                    <br/>
+                                    Alternatively, the user can move around the robot and puppeteer it. 
+                                </p>
+                                <p class="main-paragraph">
+                                    In user tests, users primarily prefer to stand in first person and would occasionally move to other angles to manipulate the robot.
+                                </p>
+                                <div class="sub-subtitle">environment</div>
+                                <p class="main-paragraph">
+                                    <img class="phone-img" src="../img/projects/vr_for_robot_teleop/environment.PNG"/>
+                                    The environment was designed to allow for a variety of tasks. The user is placed into relatively empty environment and presented with a task. The task is demonstrated and the user is then expected to replicated it.
+                                </p>
+                                <div class="sub-subtitle">controls</div>
+                                <p class="main-paragraph">
+                                    As previously mentioned, we decided to split up dominant controller and non-dominant controller actions. The actions of the dominant controller are primarily focused on the <span class="font-bold">movements of the robot arm.</span>
+                                </p>
+                                <div class="img-grid-2 align-items-center">
+                                    <div> 
+                                        <img src="../img/projects/vr_for_robot_teleop/create_trajectory.gif">
+                                    </div>
+                                    <div>
+                                        <p class="main-paragraph">
+                                            <span class="font-bold">Dominant Controller – Creating a Trajectory</span>
+                                            <br/>
+                                            The user presses and holds the trackpad to "draw" a trajectory. This leaves a "ghost" trail or a series of positions for robot to mimic. 
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="img-grid-2 align-items-center">
+                                    <div>
+                                        <p class="main-paragraph">
+                                            <span class="font-bold">Dominant Controller – Closing the End Effector</span>
+                                            <br/>
+                                            To control the "claw" or end effector, the user presses down on the trigger and the trackpad at the same time, simulating a gripping motion. The color of the ghost changes to signify a closed state.
+                                        </p>
+                                    </div>
+                                    <div> 
+                                        <img src="../img/projects/vr_for_robot_teleop/endeffector.gif">
+                                    </div>
+                                </div>
+                                <div class="img-grid-2 align-items-center">
+                                    <div> 
+                                        <img src="../img/projects/vr_for_robot_teleop/nondom_controller.gif">
+                                    </div>
+                                    <div>
+                                        <p class="main-paragraph">
+                                            <span class="font-bold">Non-dominant Controller – All Other Actions</span>
+                                            <br/>
+                                            The non-dominant controller contains all other functions. <br/>
+                                            Reset – Resets scene<br/>
+                                            Undo – Removes most recent section of ghost trail<br/>
+                                            Redo – Brings back most recent section of ghost trail<br/>
+                                            Run – Sends ghost trail to the robot to execute
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2 class="main-subtitle" id="section-12">
+                                moderated interface
+                            </h2>
+                            <div class="section-wrapper">
+                                <div class="sub-subtitle">moderated vs. unmoderated interface</div>
+                                <p class="main-paragraph">
+                                    <span class="font-bold">Moderated</span>
+                                    <br/>
+                                    When the interface is moderated by a researcher, the researcher can more accurately monitor errors, instead of depending on the user to track their own errors. The user can simply focus on completing the task in front of them, without being overwhelmed with this secondary task.
+                                </p>
+                                <p class="main-paragraph">
+                                    <span class="font-bold">Unmoderated</span>
+                                    <br/>
+                                    When the interface is unmoderated, less manpower is required and tasks can more easily be completed remotely. Instead machine learning can be used identify and correct mistakes.
+                                </p>
+                                <div class="sub-subtitle">final interface</div>
+                                <div class="img-grid-2">
+                                    <div><img class="same-height" src="../img/projects/vr_for_robot_teleop/Mockup1-3085.png"/></div>
+                                    <div><img  class="same-height" src="../img/projects/vr_for_robot_teleop/Mockup2-3114.png"/></div>
+                                    <div><img class="same-height" src="../img/projects/vr_for_robot_teleop/Mockup3-3122.png"/></div>
+                                    <div><img  class="same-height" src="../img/projects/vr_for_robot_teleop/Mockup4-3128.png"/></div>
+                                    <div><img  class="same-height" src="../img/projects/vr_for_robot_teleop/Mockup5-3126.png"/></div>
+                                    <div><img  class="same-height" src="../img/projects/vr_for_robot_teleop/Mockup6-3124.png"/></div>
+                                </div>
+                            </div>
+                            <h2 class="main-subtitle" id="section-13">
+                                speculative future 
+                            </h2>
+                            <div class="section-wrapper">
+                                <p class="main-paragraph">
+                                    Below is a speculative animation that the team explored for the future of VR for robot teleoperation.
+                                </p>
+                                <iframe src="https://player.vimeo.com/video/385087299" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
                             </div>
                            
-                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
-            <footer>
-                <div class="footer-section">
-                    <div  id="copyright">
-                        copyright &copy; tiffany chen 2021<br/>
-                        all rights reserved.<br/>
-                        <ul id="social-media-links">
-                            <li><a href="https://github.com/tiffanyhchen"><img src="../img/icons/github.svg"/></a></li>
-                            <li><a href="https://www.linkedin.com/in/tiffanychen037/"><img src="../img/icons/linkedin.svg"/></a></li>
-                            <li><a href="mailto:contact@tiffany-chen.com"><img src="../img/icons/email.svg"/></a></li>
-                        </ul>
+            <div id="footer">
+                <div id="copyright">
+                    copyright &copy; tiffany chen 2021<br/>
+                    all rights reserved.
+                </div>
+                <div>
+                    <div id="social-media-links">
+                        <a href="https://github.com/tiffanyhchen">github</a>
+                        <a href="https://www.linkedin.com/in/tiffanychen037/">linkedin</a>
+                        <a href="mailto:contact@tiffany-chen.com">email</a>
                     </div>
                 </div>
-            </footer>
+            </div>
         </div>
         <script src="../js/scrollnav.min.umd.js"></script>
         <script src="../js/project.js"></script>
