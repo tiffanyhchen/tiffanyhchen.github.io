@@ -625,8 +625,9 @@ footer #copyright{
         background: #fff;
         z-index: 99;
         width: 100%;
-        padding-top: 24px;
-        padding-bottom: 24px;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        justify-content: start;
         box-shadow: 0 2px 4px 0 rgba(152,152,152,0.50);
     }
     
