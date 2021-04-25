@@ -1,6 +1,9 @@
 <html lang="en">
     <head>
-        <title>Tiffany Chen | Chirp</title>
+        <meta charset="utf-8">
+        <title>Tiffany Chen | About</title>
+        <meta name="description" content="Tiffany Chen Portfolio">
+        <meta name="author" content="Tiffany Chen">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="../css/styles.css">
         <script
@@ -12,17 +15,14 @@
         <div id="pre-loader"></div>   
         <div id="content-wrapper">
             <nav id="main-nav">
-                <ul>
-                    <li><a href="../index.html"><img src="../img/logo.png" id="nav-logo"/></a></li>
-                    <div id="right-nav">
-                        <li><a rel="prerender" href="../work.html" class="active">work&mdash;</a></li>
-                        <li><a href="../about.html">about&mdash;</a></li>
-                    </div>
-                </ul>
+                <div><a href=""><img src="../img/logo.svg" id="nav-logo"/></a></div>
+                <div id="right-nav">
+                    <a href="../work.html">work&mdash;</a>
+                    <a rel="prerender" href="../about.html">about&mdash;</a>
+                </div>
             </nav>
             <div id="page-content">
-                <div class="project-page">
-                    <div class="page-grid">
+                <div class="page-grid">
                         <div id="page-nav">
                             <a href="../work.html">
                                 <img src="../img/icons/back.svg"/>
@@ -35,21 +35,21 @@
                             <img src="../img/projects/chirp/cover_photo.png"/>
                             <div id="project-title">
                                 <h3>Chirp</h3>
-                                <div class="small">Healthcare, UI/UX, Research</div>
                                 <h6>Sparking social interactions for residents in nursing homes</h6>
                             </div>
                         </div>
                         <div class="main-content">
                              <div class="small-grid">
                                 <div>
-                                    <div class="section-title">Tools</div>
+                                    <div class="section-title">role</div>
                                     <div class="section-content">
-                                        Sketch<br/>
-                                        Invision Studio
+                                        Design<br/>
+                                        Research <br/>
+                                        Prototyping
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="section-title">Team</div>
+                                    <div class="section-title">team</div>
                                     <div class="section-content">
                                         Nicole Ang<br/>
                                         Killian Huang<br/>
@@ -57,17 +57,9 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="section-title">Timeframe</div>
+                                    <div class="section-title">timeframe</div>
                                     <div class="section-content">
                                         March – May 2019
-                                    </div>
-                                </div>
-                                 <div>
-                                    <div class="section-title">Role</div>
-                                    <div class="section-content">
-                                        Design<br/>
-                                        Research <br/>
-                                        Prototyping
                                     </div>
                                 </div>
                             </div>
@@ -75,27 +67,29 @@
                             <h2 class="main-subtitle" id="section-1">
                                 project overview
                             </h2>
-                            <p class="main-paragraph">
-                                Within the health sector, nursing facilities are an underserved part of the population. In nursing homes, many residents feel lonely, depressed, and isolated, due to a lack of social interaction with other people. The team designed an application to address social isolation and mitigate mental health issues for residents.
-                            </p>
-                            <br/>
+                            <div class="section-wrapper">
+                                <p class="main-paragraph">
+                                    Within the health sector, nursing facilities are an underserved part of the population. In nursing homes, many residents feel lonely, depressed, and isolated, due to a lack of social interaction with other people. The team designed an application to address social isolation and mitigate mental health issues for residents.
+                                </p>
+                            </div>
                             <h2 class="main-subtitle" id="section-2">
                                 problemspace
                             </h2>
-                            <p class="main-paragraph">
-                                Approximately 20 percent of all nursing home residents have major depression (about 350,000 people in the U.S.) and an additional 30 percent have significant depressive symptoms. Additionally, 35% of residents state that they suffer from loneliness, and the risk for mortality is significantly higher for this group of residents. While nursing homes undergo a health inspection process (held by Centers for Medicare and Medicaid Services) every quarter, none of the measurements are directly related to the mental health of the residents.
+                            <div class="section-wrapper">
+                                <p class="main-paragraph">
+                                    Approximately 20 percent of all nursing home residents have major depression (about 350,000 people in the U.S.) and an additional 30 percent have significant depressive symptoms. Additionally, 35% of residents state that they suffer from loneliness, and the risk for mortality is significantly higher for this group of residents. While nursing homes undergo a health inspection process (held by Centers for Medicare and Medicaid Services) every quarter, none of the measurements are directly related to the mental health of the residents.
+                                </p>
                                 <img src="../img/projects/chirp/problem.png"/>
-                            </p>
-                            <br/>
+                            </div>
                             
                             <h2 class="main-subtitle" id="section-3">
                                 research
                             </h2>
-                            <p class="main-paragraph">
-                                The team conducted extensive online research, made visits to multiple nursing homes, interviewed caregivers, and consulted our healthcare mentor before settling on a specific target area in the nursing home sector.
-                            </p>
-                            <p class="main-paragraph">
-                                <div class="bolded">Questions</div>
+                            <div class="section-wrapper">
+                                <p class="main-paragraph">
+                                    The team conducted extensive online research, made visits to multiple nursing homes, interviewed caregivers, and consulted our healthcare mentor before settling on a specific target area in the nursing home sector.
+                                </p>
+                                <div class="sub-subtitle">questions</div>
                                 <ul>
                                     <li>Do residents use technology?</li>
                                     <li>What is the daily process for a caregiver in the nursing home?</li>
@@ -103,55 +97,88 @@
                                     <li>What are the biggest inefficiencies in nursing homes?</li>
                                     <li>What are the needs for caregivers? residents? family or friends of residents?</li>
                                 </ul>
-                            </p>
-                            <br/>
+                                <img src="../img/projects/chirp/problem_mapping.jpeg"/>
+                            </div>
                             <h2 class="main-subtitle" id="section-4">
                                 design opportunity
                             </h2>
-                            <p class="main-paragraph">
-                                Currently, volunteers are the major source of social interaction at nursing homes. They provide valuable interaction and mental stimulation to residents, which makes residents less likely to suffer from cognitive impairment. Even thought this seems like an easy solution, it is far from an effective one, as most nursing homes already have volunteer programs. From a volunteer's perspective, it is difficult to properly engage with the residents, and a structured way to meet and interact is currently lacking. Volunteers receieve litle to no guidance before they arrive for their session. The benefits that volunteers can bring to nursing home residents are significantly limited due to the lack of direct connection and direction.
-                            </p>
-                            <br/>
+                            <div class="section-wrapper">
+                                <p class="main-paragraph">
+                                    Currently, volunteers are the major source of social interaction at nursing homes. They provide valuable interaction and mental stimulation to residents, which makes residents less likely to suffer from cognitive impairment. Even thought this seems like an easy solution, it is far from an effective one, as most nursing homes already have volunteer programs. From a volunteer's perspective, it is difficult to properly engage with the residents, and a structured way to meet and interact is currently lacking. Volunteers receieve litle to no guidance before they arrive for their session. The benefits that volunteers can bring to nursing home residents are significantly limited due to the lack of direct connection and direction.
+                                </p>
+                            </div>
                             <h2 class="main-subtitle" id="section-5">
                                 solution
                             </h2>
-                            <p class="main-paragraph">
-                                <img src="../img/projects/chirp/solution.png"/>
-                                Chirp provides a way for volunteers to engage with residents more easily and get to know them better. Residents and volunteers would each have their own profiles with information such as interests, answers to icebreaker questions, a biography, and other details about themselves. Both residents (with or without the help of staff members) and volunteers can view various user profiles and match with each other based on these profiles. If both of them match with each other, then a staff member can approve the match and schedule a meeting time. In the case that a specific resident needs more social interaction, a staff member can request for a match from a volunteer. Certain matches can be used to create open events, allowing all residents to participate and receive social stimulation.
-                                <br/>
-                            </p>
-                            <p class="main-paragraph">
-                                We were inspired by other social connection applications such as Tinder, Coffee Meets Bagel, and Friended. Using similar psychological theories behind those applications, Chirp encourages more social interaction and provides opportunities for the residents to connect with people. Our solution gives both volunteers and residents a chance to express their interests and gives them the power to initiate a conversation or activity.
-                                <br/><br/>
+                            <div class="section-wrapper">
                                 <video width="100%" controls="" playsinline="">
                                     <source src="../img/projects/chirp/chirpdemo.mov" type="video/mp4">
-<!--
-                                    <p>Your browser doesn't support HTML5 video. Here is
-                                                a <a href="images/newsviewcomment.mp4">link to the video</a> instead.</p>
--->
                                 </video>
-                                
-                            </p>
-                            <br/>
+                                <p class="main-paragraph">
+                                    Chirp provides a way for volunteers to engage with residents more easily and get to know them better. Using similar psychological theories behind social connection applications, Chirp encourages more social interaction and provides opportunities for the residents to connect with people. Our solution gives both volunteers and residents a chance to express their interests and gives them the power to initiate a conversation or activity.
+                                </p>
+                                <p class="main-paragraph">
+                                    <img src="../img/projects/chirp/solution.png"/>
+                                </p>
+                                <div class="sub-subtitle">connect</div>
+                                <p class="main-paragraph">
+                                    Residents and volunteers weach have their own profiles with information such as interests, answers to icebreaker questions, a biography, and other details about themselves. Both residents and volunteers can view various user profiles and match with each other based on these profiles.
+                                </p>
+                                <div class="img-grid-2">
+                                    <div><img class="phone-img" src="../img/projects/chirp/Connect1.png"/></div>
+                                    <div><img class="phone-img" src="../img/projects/chirp/Connect2.png"/></div>
+                                </div>
+                                <div class="sub-subtitle">messages</div>
+                                <p class="main-paragraph">
+                                    Users can hold conversations with each other directly in the app. If residents and volunteers click in the chat, they can directly schedule with the scheduling functionality.
+                                </p>
+                                <div class="img-grid-2">
+                                    <div><img class="phone-img" src="../img/projects/chirp/Messages1.png"/></div>
+                                    <div><img class="phone-img" src="../img/projects/chirp/Messages2.png"/></div>
+                                </div>
+                                <div class="sub-subtitle">your events</div>
+                                <p class="main-paragraph">
+                                    Users can view their schedule and register for events to socialize and connect with others. 
+                                </p>
+                                <div class="img-grid-2">
+                                    <div><img class="phone-img" src="../img/projects/chirp/Schedule1.png"/></div>
+                                    <div><img class="phone-img" src="../img/projects/chirp/Schedule2.png"/></div>
+                                </div>
+                                <div class="sub-subtitle">meet</div>
+                                <p class="main-paragraph">
+                                    Residents and volunteers can meet with each other individually during visitation hours or schedule to interact during general nursing home events.
+                                </p>
+                                <div class="img-grid-2">
+                                    <div><img class="phone-img" src="../img/projects/chirp/Meet1.png"/></div>
+                                    <div><img class="phone-img" src="../img/projects/chirp/Meet2.png"/></div>
+                                </div>
+                            </div>
+                            <h2 class="main-subtitle" id="section-6">
+                                reflection
+                            </h2>
+                            <div class="section-wrapper">
+                                <p class="main-paragraph">
+                                    This project started out as a very nebulous challenge, as no one in the team had any expertise in the medical field. With the help of professors, mentors, and the staff of nursing homes, we were able to get some insight into an often neglected space in the healthcare industry. Because the American healthcare industry is so profit driven, many people are left behind in the system. If given more time, we would have liked to make a prototype of the application and test it with nursing home residents and volunteers.
+                                </p>
+                            </div>
                             
-    
                         </div>
+                    </div>
+
+            </div>
+            <div id="footer">
+                <div id="copyright">
+                    copyright &copy; tiffany chen 2021<br/>
+                    all rights reserved.
+                </div>
+                <div>
+                    <div id="social-media-links">
+                        <a href="https://github.com/tiffanyhchen">github</a>
+                        <a href="https://www.linkedin.com/in/tiffanychen037/">linkedin</a>
+                        <a href="mailto:contact@tiffany-chen.com">email</a>
                     </div>
                 </div>
             </div>
-            <footer>
-                <div class="footer-section">
-                    <div  id="copyright">
-                        copyright &copy; tiffany chen 2020<br/>
-                        all rights reserved.<br/>
-                        <ul id="social-media-links">
-                            <li><a href="https://github.com/tiffanyhchen"><img src="../img/icons/github.svg"/></a></li>
-                            <li><a href="https://www.linkedin.com/in/tiffanychen037/"><img src="../img/icons/linkedin.svg"/></a></li>
-                            <li><a href="mailto:contact@tiffany-chen.com"><img src="../img/icons/email.svg"/></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </footer>
         </div>
         <script src="../js/scrollnav.min.umd.js"></script>
         <script src="../js/project.js"></script>

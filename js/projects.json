@@ -59,8 +59,8 @@
         "url": "lifelike",
         "name": "Lifelike",
         "tags": "AR, UI/UX, Swift, Python, MongoDB",
-        "site_tags": "Mobile",
-        "description": "A platform that equips any textbook with AR learning toolsß",
+        "site_tags": "",
+        "description": "A platform that equips any textbook with AR learning tools",
         "image": "lifelike.png"
     },
     {
@@ -81,15 +81,7 @@
         "image": "soporific.png"
     },
     {
-        "url": "knightshares",
-        "name": "Knightshares Landing Page",
-        "tags": "UI/UX, Consulting",
-        "site_tags": "Desktop",
-        "description": "Design consulting for cryptocurrency startup",
-        "image": "knightshares.png"
-    },
-    {
-        "url": "knightshares",
+        "url": "tea_appreciation",
         "name": "Tea Appreciation Poster Series",
         "tags": "Communications Design",
         "site_tags": "Play",

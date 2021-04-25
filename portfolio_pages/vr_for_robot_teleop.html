@@ -77,49 +77,128 @@
                             <h2 class="main-subtitle" id="section-1">
                                 project overview
                             </h2>
-                            <p class="main-paragraph">
-                                <span class="bolded">PSA: This page is still being updated.</span><br/>
-                                Our project client was the R-Pad Robotics Research Lab at Carnegie Mellon University. The goal of the project was to help the lab build a usable, intuitive virtual reality (VR) environment for users to complete a range of tasks, which a robotic arm can then learn from or mimic. We aimed to facilitate the gathering of different task data through the use of virtual reality headsets and spatial computing. This data and method of robot teaching can allow for remote teleoperation for tasks that cannot be done in person. There are two major applications to prototype for: 1) the VR environment with its spatial interfaces and control mechanisms and 2) a two-dimensional screen interface for the researcher moderating the task collection from the VR user. We also created a final proof of concept video to showcase the VR interface in its ideal future state.
-                            </p>
-                            <br/>
+                            <div class="section-wrapper">
+                                <p class="main-paragraph">
+                                    The notion of robotic personal assistants has long captured our collective imagination, from the mechanical automata of ancient China to the cyborg tin woodmen and intelligent sidekicks of pop culture. The hardware is already here, so where are these vaunted robots of science fiction? 
+                                </p>
+                                <p class="main-paragraph">
+                                    Our client was the Robots Perceiving and Doing Lab at Carnegie Mellon University. Their goal is to use machine learning to create these personal robotic assistants. The goal of the project was to help the lab build a usable, intuitive virtual reality (VR) environment to faciliate the collection of user demonstrations of tasks. Once the data is collected, machine learning techniques use the demonstrations to teach robots to complete tasks. This data and method of robot teaching can allow for remote instruction, or teleoperation, for tasks that cannot be done in person.
+                                </p>
+                            </div>
                             <h2 class="main-subtitle" id="section-2">
                                 primary questions
                             </h2>
-                            <p class="main-paragraph">
-                                <ul>
-                                    <li>What is the primary user perspective while operating the robot?</li>
-                                    <li>Is a moderator necessary for the collection of task data?</li>
-                                    <li>How would the user interact with the interface and the environment? </li>
-                                    <li>What would the future of virtual reality teleoperation be like?</li>
+                            <div class="section-wrapper">
+                                 <ul>
+                                    <li>Is a moderator necessary for the collection of task data? How will errors, time, task completion be tracked in the environment? Should a researcher be moderating task collection or should users self-moderated?</li>
+                                    <li>How would the user interact with the interface and the environment? How can we make the environment easy to navigate and easy to complete precise actions?</li>
+                                    <li>What is the primary user perspective while operating the robot? Should the VR interface happen in first person, third person, or both?</li>
+                                    <li>How do we account for latency between real time robot movement and user input?</li>
                                 </ul>
-                            </p>
-                            <br/>
+                                <img src="../img/projects/vr_for_robot_teleop/questions.png"/>
+                            </div>
                             <h2 class="main-subtitle" id="section-3">
+                                solution
+                            </h2>
+                            <div class="section-wrapper">
+                                <p class="main-paragraph">
+                                    Our solution consists of 3 parts, with each part addressing a different aspect. There are two major applications: <span class="bolded">the VR environment with its spatial interfaces and control mechanisms </span> and <span class="bolded"> a 2D interface for the researcher moderating the task collection from the VR user.</span> We also created <span class="bolded">a final proof of concept video to showcase the VR interface in its future state.</span>
+                                </p>
+                                <p class="main-paragraph">
+                                Our solution addressed these problems by:</p>
+                                <ul>
+                                    <li><div class="bolded">Moderated vs. Unmoderated</div>Had the VR interface moderated by a researcher who would log errors, send messages, and track time. 
+                                    </li>
+                                    <li><div class="bolded">Augmenting Precision</div>Designed a cursor (ghost end effector) and cursor marker (ghost trail) to specific points within the VR environment for precise and accurate navigation.
+                                    </li>
+                                    <li><div class="bolded">First vs. Third Person</div>Combined first and third person to take advantage of the benefits of both perspectives. 
+                                    </li>
+                                    <li><div class="bolded">Path Planning vs. Live Control</div>Disguised lag of real-time robot movement from user’s movement in VR environment.
+                                    </li>
+                                </ul>
+                            </div>
+                             <h2 class="main-subtitle" id="section-4">
                                 prototype
                             </h2>
-                            <br/>
-                            <p class="main-paragraph">
+                            <div class="section-wrapper">
+                                <p class="main-paragraph">
+                                    The prototype is the actual working demo that the team created to document and test novel interactions for VR teleoperation. In the video, the user's task to try to teach the robot to pick up the fruit and put it in the bowl.
+                                </p>
                                 <iframe src="https://player.vimeo.com/video/385088844" width="100%" height="500px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                            </p>
-                            <br/>
-                            <h2 class="main-subtitle" id="section-4">
+                            
+                            </div>
+                            <h2 class="main-subtitle" id="section-5">
                                 moderator interface
                             </h2>
-                            <br/>
-                            <p class="main-paragraph">
+                            <div class="section-wrapper">
+                                <p class="main-paragraph">
+                                    The moderator interface allows a researcher to document, record, and mark data for task collection.
+                                </p>
                                 <img src="../img/projects/vr_for_robot_teleop/m1.png"/>
                                 <img src="../img/projects/vr_for_robot_teleop/m2.png"/>
                                 <img src="../img/projects/vr_for_robot_teleop/m3.png"/>
-                            </p>
-                            <br/>
-                            <h2 class="main-subtitle" id="section-5">
+                            </div>
+                            <h2 class="main-subtitle" id="section-6">
                                 the future
                             </h2>
-                            <br/>
-                            <p class="main-paragraph">
+                            <div class="section-wrapper">
+                                <p class="main-paragraph">
+                                    The below video is an additional exploration of what the future of VR teleoperation might look like.
+                                </p>
                                 <iframe src="https://player.vimeo.com/video/385087299" width="100%" height="500px" align="middle" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                            </p>
-                            <br/>
+                            
+                            </div>
+                            <h2 class="main-subtitle" id="section-7">
+                                design process
+                            </h2>
+                            <div class="section-wrapper">
+                                <h3 class="sub-subtitle">user studies</h3>
+                                <p class="main-paragraph">
+                                    Before jumping into designing VR, we had to first understand the design patterns and pitfalls of VR. To help us answer this question, we conducted exploratory think-aloud usability tests with 11 participants, who all had little or no experience using VR. These participants went through think-aloud exercises with 3 existing VR programs — Microsoft Maquette, Virtual Virtual Reality, and Google Earth VR. With this study, we aimed to answer the following questions:
+                                </p>
+                                <ul>
+                                    <li>What are the pain points and points of confusion for a user in a VR environment given instructions and a series of small tasks? </li>
+                                    <li>What design patterns are commonly being used in popular VR applications? (for menus, cursors, controls, etc.)</li>
+                                </ul>
+                                <img src="../img/projects/vr_for_robot_teleop/journey_map.png"/>
+                                <p class="main-paragraph">
+                                    Moving forward from these studies, we kept these four things in mind:
+                                </p>
+                                <ul>
+                                    <li>Use clear forward feedback and instructions to allow for easier onboarding.</li>
+                                    <li>Current VR UIs are lack in discoverability and providing meaningful feedback and guidance.</li>
+                                    <li>2D UI paradigms do not necessarily mix with 3D UI paradigms.</li>
+                                    <li>Physical limitations such as space must be kept in mind.</li>
+                                </ul>
+                                <h3 class="sub-subtitle">storyboards</h3>
+                                <p class="main-paragraph">
+                                    We created multiple storyboards to define potential solutions to the various usability problems faced in VR environments. The storyboard details how a user would enter the VR environment, view a tutorial for a cup stacking task, and then attempt to complete that task. Below is an aggregated storyboard detailing important interactions that were discussed.
+                                </p>
+                                <img src="../img/projects/vr_for_robot_teleop/storyboard.png"/>
+                                <h3 class="sub-subtitle">3d prototyping</h3>
+                                <p class="main-paragraph">
+                                    To get a better understanding of what were the key interactions, the team did some whiteboxing in Microsoft Maquette. In this process, we iterated on different controller interactions and environment setups.
+                                </p>
+                                <div class="img-grid-2">
+                                    <div><img class="same-height" src="../img/projects/vr_for_robot_teleop/maquette4.png"/></div>
+                                    <div><img  class="same-height" src="../img/projects/vr_for_robot_teleop/maquette6.png"/></div>
+                                    <div><img class="same-height" src="../img/projects/vr_for_robot_teleop/maquette2.png"/></div>
+                                    <div><img  class="same-height" src="../img/projects/vr_for_robot_teleop/maquette1.gif"/></div>
+                                    <div><img  class="same-height" src="../img/projects/vr_for_robot_teleop/maquette3.png"/></div>
+                                    <div><img  class="same-height" src="../img/projects/vr_for_robot_teleop/maquette5.png"/></div>
+                                    <div><img  class="same-height" src="../img/projects/vr_for_robot_teleop/maquette7.png"/></div>
+                                    <div><img  class="same-height" src="../img/projects/vr_for_robot_teleop/maquette8.png"/></div>
+                                </div>
+                            </div>
+                            <h2 class="main-subtitle" id="section-8">
+                                defining terms
+                            </h2>
+                            <div class="section-wrapper">
+                                <p class="main-paragraph">
+                                    Taking our storyboards and prototypes, we conducted speed dating session with 6 users. Through these sessions, we sought to inform ourselves on key factors. After gathering the feedback, the team discussed and defined key terms and approaches.
+                                </p>
+                            </div>
+                           
                         </div>
                     </div>
                 </div>
@@ -127,7 +206,7 @@
             <footer>
                 <div class="footer-section">
                     <div  id="copyright">
-                        copyright &copy; tiffany chen 2020<br/>
+                        copyright &copy; tiffany chen 2021<br/>
                         all rights reserved.<br/>
                         <ul id="social-media-links">
                             <li><a href="https://github.com/tiffanyhchen"><img src="../img/icons/github.svg"/></a></li>
