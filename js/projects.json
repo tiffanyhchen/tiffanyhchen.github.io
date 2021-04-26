@@ -16,11 +16,11 @@
         "image": "vr_teleop.png"
     },
     {
-        "url": "ychat",
+        "url": "",
         "name": "YCHAT",
         "tags": "UI/UX, Consulting, Ruby on Rails",
         "site_tags": "Mobile",
-        "description": "Increasing parent engagement in YMCA summer camps",
+        "description": "Coming Soon – Increasing parent engagement in YMCA summer camps",
         "image": "ychat.png"
     },
     {
@@ -56,28 +56,11 @@
         "image": "user_research.png"
     },
     {
-        "url": "lifelike",
-        "name": "Lifelike",
-        "tags": "AR, UI/UX, Swift, Python, MongoDB",
-        "site_tags": "",
-        "description": "A platform that equips any textbook with AR learning tools",
-        "image": "lifelike.png"
-    },
-
-    {
         "url": "soporific",
         "name": "Soporific",
         "tags": "Interactive Website, UI/UX",
         "site_tags": "Desktop",
         "description": "Interactive website documenting the importance of sleep",
         "image": "soporific.png"
-    },
-    {
-        "url": "tea_appreciation",
-        "name": "Tea Appreciation Poster Series",
-        "tags": "Communications Design",
-        "site_tags": "Play",
-        "description": "Three part series for tea appreciation workshops",
-        "image": "infinitea.png"
     } 
 ]

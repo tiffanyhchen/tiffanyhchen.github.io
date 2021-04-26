@@ -7,3 +7,21 @@
         "description": "Endpoint security dashboard redesign",
         "image": "limacharlie.png"
     },
+
+    {
+        "url": "lifelike",
+        "name": "Lifelike",
+        "tags": "AR, UI/UX, Swift, Python, MongoDB",
+        "site_tags": "",
+        "description": "A platform that equips any textbook with AR learning tools",
+        "image": "lifelike.png"
+    },
+
+    {
+        "url": "tea_appreciation",
+        "name": "Tea Appreciation Poster Series",
+        "tags": "Communications Design",
+        "site_tags": "Play",
+        "description": "Three part series for tea appreciation workshops",
+        "image": "infinitea.png"
+    }
