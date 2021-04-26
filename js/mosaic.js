@@ -116,8 +116,10 @@ function populateMosaic(selected){
         if (project.url == "soporific"){
             
             box += "<a href=\"https://tiffany-chen.com/soporific\" target=\"_blank\">";
-        } else{
-            box += "<a href=\"portfolio_pages/" + project.url + ".html\">";  
+        } else if (project.url == ""){
+            box += "<a href=\"\">";  
+        } else {
+            box += "<a href=\"portfolio_pages/" + project.url + ".html\">"; 
         }
         box += "<img src=\"img/mosaic/" + project.image + "\"/>";
         box += "<div class=\"project-box-hover\"><p class=\"project-box-title\">" + project.name;
