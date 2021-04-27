@@ -561,7 +561,7 @@ li{
     grid-gap: 1.75rem;
 }
 
-.right-col-3{
+.right-col-2{
     grid-column: span 2;
 }
 
@@ -734,6 +734,10 @@ footer #copyright{
     #project-title h6{
         font-size: 14px;
         margin-top: 16px;
+    }
+    
+    #content-wrapper{
+        margin: 2.5rem;
     }
     
 }
