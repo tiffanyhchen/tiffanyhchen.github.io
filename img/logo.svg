@@ -1,6 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="43" height="72" viewBox="0 0 43 72">
-  <g id="Group_1" data-name="Group 1" transform="translate(-167 -34)">
-    <text id="t" transform="translate(167 84)" fill="#73b9e7" font-size="50" font-family="GTAmerica-Bold, GT America" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">t</tspan></text>
-    <text id="c" transform="translate(182 96)" fill="#73b9e7" font-size="50" font-family="GTAmerica-Bold, GT America" font-weight="700" letter-spacing="0.07em"><tspan x="0" y="0">c</tspan></text>
-  </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="72px" viewBox="0 0 43 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo</title>
+    <defs>
+        <path d="M14,50.5 C15.45,50.5 16.7,50.35 18.55,50 L18.55,43.65 C17.8,43.8 17.2,43.9 16.25,43.9 C13.85,43.9 12.6,42.6 12.6,40.1 L12.6,30.35 L18.55,30.35 L18.55,25 L12.6,25 L12.6,15.9 L4.6,19 L4.6,25 L0.25,25 L0.25,30.35 L4.6,30.35 L4.6,42 C4.6,47.45 7.35,50.5 14,50.5 Z" id="path-1"></path>
+        <path d="M14.6,50.6 C21,50.6 25.65,47.15 26.55,41.65 L19.05,40 C18.6,43 17.05,44.65 14.55,44.65 C11.4,44.65 9.6,41.95 9.6,37.25 C9.6,32.9 11.45,30.3 14.5,30.3 C16.95,30.3 18.55,31.85 19,34.8 L26.55,33.25 C25.6,27.6 21.25,24.4 14.7,24.4 C6.5,24.4 1.45,29.35 1.45,37.5 C1.45,45.45 6.7,50.6 14.6,50.6 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo" fill-rule="nonzero">
+            <g id="t">
+                <use fill="#ff5c8d" xlink:href="#path-1"></use>
+                <use fill="#ff5c8d" xlink:href="#path-1"></use>
+            </g>
+            <g id="c" transform="translate(15.000000, 12.000000)">
+                <use fill="#ff5c8d" xlink:href="#path-2"></use>
+                <use fill="#ff5c8d" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
 </svg>

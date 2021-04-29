@@ -4,30 +4,54 @@
         <title>Tiffany Chen | Home</title>
         <meta name="description" content="Tiffany Chen Portfolio">
         <meta name="author" content="Tiffany Chen">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <style>
+            
+            body { width: 100%; 
+                   height: 100%;
+                   margin: 0;
+                   position: fixed;
+                   background: rgba(209.37500000000003,234.64439655172413,251.25, 1) 
+            }
+            canvas { width: 100%; height: 100%; outline: none; }
+            #container { width: 100%; height: 100%; position: relative; 
+                
+            }
+
+
+        </style>
         <link rel="stylesheet" type="text/css" href="css/styles.css">
+
     </head>
     <body>
-        <div id="pre-loader"></div>   
-        <div id="content-wrapper">
-            <nav id="main-nav">
-                <div><a href=""><img src="img/logo.svg" id="nav-logo"/></a></div>
-                <div id="right-nav">
-                    <a href="work.html">work&mdash;</a>
-                    <a rel="prerender" href="about.html">about&mdash;</a>
-                </div>
-            </nav>
-            <div id="home-page" class="center">
-                <div class="statement-txt">
-                    Hi! I'm Tiffany.
-                </div>
-                <div class="statement-subtxt">
-                    I am <span class="light-blue">a designer and software engineer</span> building empathetic experiences for the future.
-                </div>
-                <div class="pardon-the-dust">
-                    Under Construction. Please pardon the dust. 
-                </div>
+        <div id='container'>
+            <div id="content-wrapper" class="z-index-10">
+                <nav id="main-nav">
+                    <div><a href=""><img src="img/logo.svg" id="nav-logo"/></a></div>
+                    <div id="right-nav">
+                        <a href="work.html">work&mdash;</a>
+                        <a rel="prerender" href="about.html">about&mdash;</a>
+                    </div>
+                </nav>
+                
             </div>
+            <div id="home-page" class="center">
+                    <div class="statement-txt">
+                        Hi! I'm Tiffany.
+                    </div>
+                    <div class="statement-subtxt">
+                        I am <span class="light-blue">a designer and software engineer</span> building empathetic experiences for the future.
+                    </div>
+                    <div class="pardon-the-dust">
+                        Under Construction. Please pardon the dust. 
+                    </div>
+                </div>
+                        <canvas id="canvas3d"></canvas>
         </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+        <script src="https://cdn.spline.design/lib/anime.min.js"></script>
+        <script src="js/spline.runtime.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
