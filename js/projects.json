@@ -16,10 +16,10 @@
         "image": "vr_teleop.png"
     },
     {
-        "url": "",
+        "url": "ychat",
         "name": "YCHAT",
         "tags": "UI/UX, Consulting, Ruby on Rails",
-        "site_tags": "Mobile",
+        "site_tags": "Featured, Mobile",
         "description": "Coming Soon – Increasing parent engagement in YMCA summer camps",
         "image": "ychat.png"
     },
@@ -43,7 +43,7 @@
         "url": "wabbit",
         "name": "Wabbit",
         "tags": "AR, UI/UX, Gamification",
-        "site_tags": "Mobile, Featured",
+        "site_tags": "Mobile",
         "description": "Gamified physical therapy to motivate stroke patients",
         "image": "wabbit.gif"
     },
