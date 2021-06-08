@@ -108,27 +108,54 @@ function populateMosaic(selected){
         return project.site_tags.includes(selected)
     });
     
+    
+    var mosaic = document.getElementById("mosaic");
     var mosaicHTML = "";
     var boxCounter = 1;
-    
-    for(const project of filteredProjects){
-        var box = "<div class=\"project-box box-" + boxCounter +"\">";
-        if (project.url == "soporific"){
-            
-            box += "<a href=\"https://tiffany-chen.com/soporific\" target=\"_blank\">";
-        } else if (project.url == ""){
-            box += "<a href=\"\">";  
-        } else {
-            box += "<a href=\"portfolio_pages/" + project.url + ".html\">"; 
+//    console.log(selected)
+//    if(selected == "Featured"){
+//        for(const project of filteredProjects){
+//            var box = "<div class=\"project-box featured box-" + boxCounter +"\">";
+//            if (project.url == "soporific"){
+//
+//                box += "<a href=\"https://tiffany-chen.com/soporific\" target=\"_blank\">";
+//            } else if (project.url == ""){
+//                box += "<a href=\"\">";  
+//            } else {
+//                box += "<a href=\"portfolio_pages/" + project.url + ".html\">"; 
+//            }
+//            box += "<img src=\"img/mosaic/" + project.image + "\"/>";
+//            box += "<div class=\"project-box-hover\"><p class=\"project-box-title\">" + project.name;
+//            box += "</p>"
+//    //        <p class=\"project-box-tags\">" + project.tags;
+//            box += "<p class=\"project-box-descrp\">" + project.description + "</p></div></a></div>";
+//            mosaicHTML += box;
+//            boxCounter++;
+//        }
+//        mosaic.classList.add("featured-mosaic");
+////    } else{
+//        mosaic.classList.remove("featured-mosaic");
+        for(const project of filteredProjects){
+            var box = "<div class=\"project-box box-" + boxCounter +"\">";
+            if (project.url == "soporific"){
+
+                box += "<a href=\"https://tiffany-chen.com/soporific\" target=\"_blank\">";
+            } else if (project.url == ""){
+                box += "<a href=\"\">";  
+            } else {
+                box += "<a href=\"portfolio_pages/" + project.url + ".html\">"; 
+            }
+            box += "<img src=\"img/mosaic/" + project.image + "\"/>";
+            box += "<div class=\"project-box-hover\"><p class=\"project-box-title\">" + project.name;
+            box += "</p>"
+    //        <p class=\"project-box-tags\">" + project.tags;
+            box += "<p class=\"project-box-descrp\">" + project.description + "</p></div></a></div>";
+            mosaicHTML += box;
+            boxCounter++;
         }
-        box += "<img src=\"img/mosaic/" + project.image + "\"/>";
-        box += "<div class=\"project-box-hover\"><p class=\"project-box-title\">" + project.name;
-        box += "</p>"
-//        <p class=\"project-box-tags\">" + project.tags;
-        box += "<p class=\"project-box-descrp\">" + project.description + "</p></div></a></div>";
-        mosaicHTML += box;
-        boxCounter++;
-    }
+//    }
+    
+
     
     document.getElementById("mosaic").innerHTML = mosaicHTML;
     addTilt();

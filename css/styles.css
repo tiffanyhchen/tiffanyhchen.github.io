@@ -286,6 +286,11 @@ img:not([src]) {
     visibility: hidden;
 }
 
+.featured-mosaic{
+    max-width: 630px !important;
+    
+}
+
 .project-box img{
     height: 100%;
     width: 100%;
@@ -357,6 +362,20 @@ img:not([src]) {
 .box-5 {
     margin-top: 20px;
 }
+
+.project-box.featured.box-3{
+    height: 300px;
+    margin: 0;
+    margin-top: -55px;
+}
+
+.project-box.featured.box-4{
+    height: 225px;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 
 /* Portfolio Pages */
 .main-content{

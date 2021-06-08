@@ -1,20 +1,5 @@
 [
-    {
-        "url": "chirp",
-        "name": "Chirp",
-        "tags": "UI/UX, Healthcare",
-        "site_tags": "Featured, Mobile",
-        "description": "Sparking social interaction for residents in nursing homes",
-        "image": "chirp.png"
-    },
-    {
-        "url": "vr_for_robot_teleop",
-        "name": "VR for Robot Teleoperation",
-        "tags": "VR, Unity, User Research, UI/UX",
-        "site_tags": "Featured, Other",
-        "description": "Using VR for more intuitive way to interface with robots",
-        "image": "vr_teleop.png"
-    },
+    
     {
         "url": "ychat",
         "name": "YCHAT",
@@ -22,6 +7,22 @@
         "site_tags": "Featured, Mobile",
         "description": "Increasing parent engagement in YMCA summer camps",
         "image": "ychat.png"
+    },
+    {
+        "url": "vr_for_robot_teleop",
+        "name": "VR for Robot Teleoperation",
+        "tags": "VR, Unity, User Research, UI/UX",
+        "site_tags": "Featured",
+        "description": "Using VR for more intuitive way to interface with robots",
+        "image": "vr_teleop.png"
+    },
+     {
+        "url": "chirp",
+        "name": "Chirp",
+        "tags": "UI/UX, Healthcare",
+        "site_tags": "Featured, Mobile",
+        "description": "Sparking social interaction for residents in nursing homes",
+        "image": "chirp.png"
     },
     {
         "url": "koality_time",
@@ -35,7 +36,7 @@
         "url": "expii",
         "name": "Expii",
         "tags": "UI/UX, Personalized Learning",
-        "site_tags": "Featured, Mobile, Desktop, Other",
+        "site_tags": "Featured, Mobile, Desktop",
         "description": "Encouraging learning and retention on Expii, an online learning platform",
         "image": "expii.png"
     },
@@ -51,7 +52,7 @@
         "url": "user_research",
         "name": "Beeline User Research",
         "tags": "User Centered Research and Analysis",
-        "site_tags": "Featured, Other",
+        "site_tags": "Featured",
         "description": "What are the opportunities to improve grad student commutes?",
         "image": "user_research.png"
     },
@@ -59,7 +60,7 @@
         "url": "soporific",
         "name": "Soporific",
         "tags": "Interactive Website, UI/UX",
-        "site_tags": "Desktop",
+        "site_tags": "Play",
         "description": "Interactive website documenting the importance of sleep",
         "image": "soporific.png"
     } 
