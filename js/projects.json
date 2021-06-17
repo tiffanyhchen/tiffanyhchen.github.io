@@ -1,5 +1,12 @@
 [
-    
+    {
+        "url": "apple",
+        "name": "Apple",
+        "tags": "UI/UX",
+        "site_tags": "Featured",
+        "description": "Apple Information Security team",
+        "image": "apple.png"
+    },
     {
         "url": "ychat",
         "name": "YCHAT",
@@ -20,7 +27,7 @@
         "url": "chirp",
         "name": "Chirp",
         "tags": "UI/UX, Healthcare",
-        "site_tags": "Featured, Mobile",
+        "site_tags": "",
         "description": "Sparking social interaction for residents in nursing homes",
         "image": "chirp.png"
     },
