@@ -1,4 +1,4 @@
-
-			const app = new SpeRuntime.Application();
-			app.start('./scene.json');
-        
+//
+//			const app = new SpeRuntime.Application();
+//			app.start('./scene.json');
+//        
