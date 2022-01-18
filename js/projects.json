@@ -1,5 +1,13 @@
 [
     {
+        "url": "finary",
+        "name": "Finary",
+        "tags": "Product Design",
+        "site_tags": "Featured",
+        "description": "Bring investors together in online communities",
+        "image": "finary.png"
+    },
+    {
         "url": "apple",
         "name": "Apple",
         "tags": "UI/UX",
@@ -35,7 +43,7 @@
         "url": "koality_time",
         "name": "Koality Time",
         "tags": "UI/UX, Persuasive Design, Gamification",
-        "site_tags": "Featured, Mobile",
+        "site_tags": "Mobile",
         "description": "Mobile app for reducing phone usage during social interactions",
         "image": "koality_time.png"
     },
